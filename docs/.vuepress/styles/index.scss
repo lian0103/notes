@@ -7,3 +7,9 @@ html.dark{
         border-radius: 100%;
     }
 }
+
+p.left{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
