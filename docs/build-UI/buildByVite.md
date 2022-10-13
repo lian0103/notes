@@ -3,6 +3,8 @@ title: Vite build config
 ---
 # Vite build config
 
+[[toc]]
+
 ## 情境一:vite build的chunk體積過大
 隨著專案內容的增加，在打包/分檔的策略上必須自行添加，否則會出現像截圖的錯誤訊息，單一個的chunk體積過大。
 

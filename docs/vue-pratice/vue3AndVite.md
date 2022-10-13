@@ -3,7 +3,7 @@ tags: 學習
 ---
 
 # vue3、vite和ElementPlus專案建置
-
+[[toc]]
 ## [安裝流程](https://cn.vitejs.dev/guide/#trying-vite-online)
 ```shell
 # node -v //16.13.0

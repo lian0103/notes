@@ -2,7 +2,7 @@
 tags: 學習
 ---
 # Vue2 與vue-cli建置專案
-
+[[toc]]
 ## [安裝流程](https://cli.vuejs.org/guide/installation.html)
 ```
 npm install -g @vue/cli

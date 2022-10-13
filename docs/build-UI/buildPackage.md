@@ -4,6 +4,8 @@ title: GT-UI Package指令
 ---
 # GT-UI Package指令 
 
+[[toc]]
+
 ## 倉庫
 [Github](https://github.com/lian0103/vue-ui)
 

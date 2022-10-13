@@ -1,5 +1,5 @@
 # Nuxt3 features
-
+[[toc]]
 ## 概念
 打通web後端到前端的開發方式，優勢上是語言的一致，資料類型即的一致。在NuxtJS也提供各種功能，來做到SSR(Server Side Render)機制，並利用專案的資料夾結構去綁定這些功能。
 

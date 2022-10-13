@@ -4,9 +4,11 @@ tags: 學習
 
 # 資料爬取與儲存
 
+[[toc]]
+
 參考鐵人賽的系列文章，使用 NodeJS 來實作網頁資料爬取和儲存於 google 表單，在嘗試過程中把系列文的 selenium-webdriver 套件改用 puppeteer 和 cheerio，而該系列文主要針對的是臉書和 IG 的追蹤數爬取，我則針對 yahoo 入口頁面的新聞和 momo 購物網的商品搜尋資訊。
 
-## 工具
+## puppeteer、cheerio、googleapis
 
 - [puppeteer](https://www.npmjs.com/package/puppeteer)
   提供基於瀏覽器操作行為的 API，也可以截取圖片、產生 PDF。使用概念上要瞭解瀏覽器渲染 DOM 的生命週期，以及對於網站 url 的規則去分析。在資料公開的網站，url 的 path 和 query 部份，通常就指向對應的資料內容。
@@ -24,7 +26,7 @@ tags: 學習
   用來使用線上 google 表單的操作，官方提供的 API 相當龐雜。這次有使用的部分是基本的寫入資料、新增 sheet。在概念上，它可以做為一個線上儲存資料的載體。
   > 使用重點是在[google developer console](https://console.cloud.google.com/apis/dashboard?project=node-crawler-359702)要先開通 google sheet api 服務，並設定服務權限，取得憑證(credentials.json)
 
-## 實作重點
+## 代碼
 
 - [puppet.js](https://github.com/lian0103/nodeServices/blob/main/services/puppet.js)
   可以理解為瀏覽器操作流程
@@ -57,12 +59,6 @@ tags: 學習
 - [yahooCrawler.js](https://github.com/lian0103/nodeServices/blob/main/services/yahooCrawler.js) & [googleSheets.js](https://github.com/lian0103/nodeServices/blob/main/services/googleSheets.js)
   爬取資料後，將它存放到線上 google 表單。
   ![](https://i.imgur.com/brb2Pfj.png)
-
-## 後續目標
-
-- 利用 express 啟 API 服務
-- 部署到主機
-- 使用排程
 
 ## 參考資源
 

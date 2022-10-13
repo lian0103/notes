@@ -1,5 +1,7 @@
 # Nuxt3 APP
 
+[[toc]]
+
 ## 建立一個nuxt3 app
 
 **node版本: 16.13.0**

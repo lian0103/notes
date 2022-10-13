@@ -4,6 +4,9 @@ tags: 技術
 categories: 開發 
 ---
 
+# Google開發全家餐
+[[toc]]
+
 Google開發全家餐系列預計包含Google Firebase、Google AdSense、Google Analytics..。本篇主要在記錄使用Firebase部分功能。
 
 實作部分，我有兩個小專案應用放在Firebase上:
@@ -13,7 +16,7 @@ Google開發全家餐系列預計包含Google Firebase、Google AdSense、Google
 ## Firebase Realtime Database
 每筆資料會像是文件檔一樣各自獨立地儲存，而DB可以視為很多文件的集合物件。前端/APP端在使用時，也會隨著DB內的文件更新，也會即時將有該筆資料的訂閱端做推送更新，也就是不同使用者和應用程式可以同時共享最新的資料。
 
-### 應用實作:留言板
+## 應用實作:留言板
 在這裡呈現的留言板即是將資料存放在Realtime DB。多個使用者/視窗同時留言，會同步推送給其他人的畫面。
 ![](https://i.imgur.com/NtHhZMK.jpg)
 
@@ -26,7 +29,7 @@ Google開發全家餐系列預計包含Google Firebase、Google AdSense、Google
 
 
 
-### 應用實作:部屬上線
+## 應用實作:部屬上線
 以這個部落格的專案為例，我是使用Hexo的架站模組，會用到的指令如下。流程上是需要可以先建置好部落格的專案，後續再使用Hosting即可。
 
 

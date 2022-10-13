@@ -1,5 +1,5 @@
 import { defineUserConfig, defaultTheme } from 'vuepress';
-import sidebarJSON from '../sidebar.json';
+import sidebarJSON from './sidebar.json';
 
 const mode = process.env.NODE_ENV;
 
@@ -14,6 +14,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     lastUpdated: true,
     tip: 'info',
+    logo:'images/cat.jpg',
     sidebar: [
       {
         text: '首頁',

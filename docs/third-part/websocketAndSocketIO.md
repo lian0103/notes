@@ -4,6 +4,9 @@ tags: 學習
 categories: 開發
 ---
 ## websocket
+
+[[toc]]
+
 websocket是一種連線server端的方式，用來傳送和接收資料。從client端發起連結的請求，是從一般的http request"升級"成websocket，這種連線方式也是被w3c認可的技術。
 [MDN WebSockets_API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
 
