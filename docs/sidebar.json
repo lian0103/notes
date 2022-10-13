@@ -1,0 +1,115 @@
+[
+    {
+        "folder": "nodeJS",
+        "notes": [
+            {
+                "text": "資料爬取與儲存",
+                "file": "crawler.md"
+            },
+            {
+                "text": "NodeJS架設Web服務",
+                "file": "nodeExpressApp.md"
+            }
+        ]
+    },
+    {
+        "folder": "build-UI",
+        "notes": [
+            {
+                "text": "前端UI設計規範引入",
+                "file": "designRules.md"
+            },
+            {
+                "text": "自動生成demo文件",
+                "file": "genDoc.md"
+            },
+            {
+                "text": "Vite打包 ",
+                "file": "buildPackage.md"
+            },
+            {
+                "text": "vite打包優化",
+                "file": "buildByVite.md"
+            },
+            {
+                "text": "元件測試",
+                "file": "Vitest.md"
+            }
+        ]
+    },
+    {
+        "folder": "nuxtJS",
+        "notes": [
+            {
+                "text": "Nuxt3 App建置",
+                "file": "nuxtApp.md"
+            },
+            {
+                "text": "Nuxt3 功能",
+                "file": "nuxtFeat.md"
+            },
+            {
+                "text": "切換顏色模式",
+                "file": "colorMode.md"
+            }
+        ]
+    },
+    {
+        "folder": "third-part",
+        "notes": [
+            {
+                "text": "D3畫甘特圖",
+                "file": "d3WithGantte.md"
+            },
+            {
+                "text": "firebase App",
+                "file": "firebaseApp.md"
+            },
+            {
+                "text": "heroku 使用",
+                "file": "heroku.md"
+            },
+            {
+                "text": "docker 學習",
+                "file": "learnDockerfile.md"
+            },
+            {
+                "text": "LineBot API串接",
+                "file": "lineBot.md"
+            },
+            {
+                "text": "畫面截圖",
+                "file": "screenShot.md"
+            },
+            {
+                "text": "websocket 和 socketIO",
+                "file": "websocketAndSocketIO.md"
+            }
+        ]
+    },
+    {
+        "folder": "vue-pratice",
+        "notes": [
+            {
+                "text": "vue3 And Vite",
+                "file": "vue3AndVite.md.md"
+            },
+            {
+                "text": "vue2 And Vue-cli",
+                "file": "vue2AndVue-cli.md"
+            },
+            {
+                "text": "vue3 slot",
+                "file": "card.md"
+            },
+            {
+                "text": "vue3 & Firebase App",
+                "file": "accountApp.md"
+            },
+            {
+                "text": "Quasar App",
+                "file": "quasarApp.md"
+            }
+        ]
+    }
+]
