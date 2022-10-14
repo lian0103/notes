@@ -1,5 +1,7 @@
 ---
 tags: 學習
+head:
+  - [meta, { name: description  , content: Google Domain }]
 ---
 
 # 買個Google Domain
