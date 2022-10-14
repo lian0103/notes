@@ -17,15 +17,8 @@ p.left {
 .fontBig {
   font-size: 3.75rem;
   line-height: 1;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   font-weight: 700;
-}
-
-@media screen and (max-width: 600px) {
-  .fontBig {
-    font-size: 1.75rem;
-    letter-spacing: 吽rem;
-  }
 }
 
 .rainbow-text {
@@ -37,4 +30,14 @@ p.left {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .theme-default-content {
+    overflow-x: hidden;
+  }
+  .fontBig {
+    font-size: 1.75rem;
+    letter-spacing: 吽rem;
+  }
 }

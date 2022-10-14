@@ -15,11 +15,14 @@ tags: 學習
   提供基於瀏覽器操作行為的 API，也可以截取圖片、產生 PDF。使用概念上要瞭解瀏覽器渲染 DOM 的生命週期，以及對於網站 url 的規則去分析。
   在資料公開的網站，url 的 path 和 query 部份，通常就指向對應的資料內容。
 
-> momo 搜尋產品頁
-> https://www.momoshop.com.tw/search/searchShop.jsp?keyword=$keyword
->
-> google 搜尋頁
-> https://www.google.com.tw/search?q=$keyword
+:::tip
+momo 搜尋產品頁
+https://www.momoshop.com.tw/search/searchShop.jsp?keyword=$keyword
+
+google 搜尋頁
+https://www.google.com.tw/search?q=$keyword
+:::
+
 
 - [cheerio](https://www.npmjs.com/package/cheerio)
   用來處理網頁的 dom 結構，功能和 jQuery 的選取和操作相近。在這次嘗試過程中，是拿來抓取 dom 的資料。
