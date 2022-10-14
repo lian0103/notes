@@ -1,8 +1,8 @@
 ---
 tags: 學習
-title: Nuxt3顏色模式
+title: Nuxt3App顏色模式
 ---
-# 顏色模式實現概念
+# Nuxt3App顏色模式
 
 [[toc]]
 
@@ -12,7 +12,7 @@ title: Nuxt3顏色模式
 ## css配置
 
 在document html樹狀結構中，html或body都可以作為綁定的上層。這裡預設一個body預設的樣式對照，使用了css變數的語法(ex. --mode-text-color:rgba(0, 0, 0, 0.8);)；而另一個深色模式則是多了一個class名稱的body。
-```
+```css
 body.light-mode {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
@@ -30,9 +30,12 @@ body.dark-mode {
 
 ```
 
-在html渲染結果對照
-![](https://i.imgur.com/wJ0dg5B.jpg)
-![](https://i.imgur.com/rsP9HC5.jpg)
+## 在html渲染結果對照
+<div>
+  <img src="https://i.imgur.com/wJ0dg5B.jpg" alt="">
+  <img src="https://i.imgur.com/rsP9HC5.jpg" alt="">
+</div> 
+
 
 而在下層的樣式中，就可以使用上層定義好的變量。
 ```css
@@ -54,8 +57,8 @@ window.matchMedia('(prefers-color-scheme: dark)').matches :Boolean
 window
 	.matchMedia("(prefers-color-scheme: dark)")
 	.addEventListener("change", function (event) {
-        console.log(event.matches)
-    }
+      console.log(event.matches)
+  }
 ```
 
 ## 自訂可切換的顏色模式
@@ -78,13 +81,11 @@ window和document物件必須是在Client端的瀏覽器運行時才能使用，
 
 ```javascript
 //Nuxt3 SSR情境下，判別的腳本寫在onMounted這個hook中
-
 onMounted(() => {
   let mode = localStorage.setItem('nuxt3-app-color-mode', mode) ?? 'light'
 
   document?.getElementsByTagName('body')[0]?.setAttribute('class', `${mode}-mode`);
 });
-
 ```
 
 同時在nuxt3框架之下，狀態管理的方式可以這樣使用，來實作切換功能。
@@ -116,9 +117,9 @@ const handleAppMode = () => {
     addModeClass(appMode.value);
   }, 100);
 };
-
 ```
 
+## 參考
 [Nuxt3內實作完整程式碼](https://github.com/lian0103/nuxt3-notes/blob/main/components/Nav.vue)
 
 [How to Watch for System Dark Mode Changes Using JavaScript and CSS](https://www.section.io/engineering-education/watch-for-system-dark-mode-using-js-css/)

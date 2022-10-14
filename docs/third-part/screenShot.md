@@ -13,8 +13,7 @@ categories: 技術
 <img src='https://i.imgur.com/kp0HP5v.png' width='300'/>
 
 
-## lib
-1.html2canvas.js
+## html2canvas
 把web畫面上指定的Dom，轉成一個Canvas物件。
 
 ```javascript
@@ -26,9 +25,8 @@ html2canvas(instance.refs.targetDom).then((canvas) => {
 });
 
 ```
-[官方doc](https://www.npmjs.com/package/html2canvas)
 
-2.FileSaver.js
+## FileSaver
 把Canvas物件轉成Blob格式，並呼叫FileSaver的API saveAs。而在SaveAs的實作中，則是把Blob格式轉換成可下載的ObjectURL格式。
 ```javascript
 import { saveAs } from "file-saver";
@@ -66,10 +64,7 @@ function saveAs(blob, name, opts) {
 }
 
 ```
-
-[官方doc](https://github.com/eligrey/FileSaver.js)
-
-## 實作code
+## 代碼
 ```javascript
 
 //實作時有先將畫面一些不需要截圖的部分先隱藏 再擷取重新選染後的Dom
@@ -103,6 +98,9 @@ Image、DataURL、ObjectURL、Blob、Canvas、ImageData、ArrayBuffer、ImageURL
 <img src='https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/112c6956ee734162bccebae8547ec061~tplv-k3u1fbpfcp-zoom-1.image'/>
 
 ---
-學習資源
+
+## 連結
+[html2canvas官方doc](https://www.npmjs.com/package/html2canvas)
+[FileSaver官方doc](https://github.com/eligrey/FileSaver.js)
 [聊一聊 15.5K 的 FileSaver，是如何工作的](https://www.gushiciku.cn/pl/gmpt/zh-tw)
 

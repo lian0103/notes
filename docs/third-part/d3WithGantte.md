@@ -17,7 +17,7 @@ tags: 學習
 
 ## 代碼
 
-```
+```javascript
 const svg = d3
 .select('#d3-container')
 .append('svg')
@@ -30,6 +30,6 @@ const barlineLayer = svg.append('g');
 const categoryLayer = svg.append('g');
 const barsLayer = svg.append('g').attr('id', 'barsRects');
 const barsTextLayer = svg.append('g').attr('id', 'barsTexts');
-
+//其他略
 ```
 [完整代碼](https://github.com/lian0103/nuxt3-notes/blob/main/components/GanttChart.vue)

@@ -24,21 +24,21 @@
 官方建議使用 
 1.vscode
 2.volor套件
-```shell=
+
+```sh
 npx nuxi init {nuxt-app-name}
 ```
-
 
 ---
 
 ## 配置tailwind
 
-**package:tailwindcss、postcss、autoprefixer**
+### install packages
 ```shell
 npm install -D tailwindcss postcss@latest autoprefixer@latest
 ```
 
-**tailwind.config.js**
+### tailwind.config.js
 ```shell
 npx tailwindcss init
 ```
@@ -60,14 +60,14 @@ module.exports = {
 };
 ```
 
-**tailwind.css**
+### tailwind.css
 ```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 
-**postcss.config.js**
+### postcss.config.js
 ```javascript
 module.exports = {
   plugins: {
@@ -77,7 +77,7 @@ module.exports = {
 };
 ```
 
-**nuxt.config.js**
+### nuxt.config.js
 ```javascript
 export default defineNuxtConfig({
   css: ['@/assets/css/tailwind.css'],
@@ -91,16 +91,13 @@ export default defineNuxtConfig({
 ```
 
 ---
-
-
 ## 配置scss
 **package:sass-loader、sass**
 ```shell
 npm i -D sass-loader@10.1.1 --save-exact && npm i -D sass
 ```
 
-## 完成
-![](https://i.imgur.com/JyBBAGo.png)
+## 代碼
 
 ```vue
 <script setup>
@@ -125,3 +122,5 @@ import '@/assets/css/tailwind.css';
 </style>
 
 ```
+
+![](https://i.imgur.com/JyBBAGo.png)

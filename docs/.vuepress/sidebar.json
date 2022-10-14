@@ -13,26 +13,26 @@
         ]
     },
     {
-        "folder": "build-UI",
+        "folder": "build-UI-Library",
         "notes": [
             {
-                "text": "前端UI設計規範引入",
+                "text": "第三方UI庫的樣式複寫",
                 "file": "designRules.md"
             },
             {
-                "text": "自動生成demo文件",
-                "file": "genDoc.md"
+                "text": "GT UI使用",
+                "file": "library.md"
             },
             {
-                "text": "Vite打包 ",
-                "file": "buildPackage.md"
-            },
-            {
-                "text": "vite打包優化",
+                "text": "vite打包之情境",
                 "file": "buildByVite.md"
             },
             {
-                "text": "元件測試",
+                "text": "工具自動生成文檔",
+                "file": "genDoc.md"
+            },
+            {
+                "text": "Vitest元件測試",
                 "file": "Vitest.md"
             }
         ]
@@ -41,15 +41,15 @@
         "folder": "nuxtJS",
         "notes": [
             {
-                "text": "Nuxt3 App建置",
-                "file": "nuxtApp.md"
-            },
-            {
                 "text": "Nuxt3 功能",
                 "file": "nuxtFeat.md"
             },
             {
-                "text": "切換顏色模式",
+                "text": "Nuxt3 App建置",
+                "file": "nuxtApp.md"
+            },
+            {
+                "text": "Nuxt3App顏色模式",
                 "file": "colorMode.md"
             }
         ]
@@ -62,7 +62,7 @@
                 "file": "d3WithGantte.md"
             },
             {
-                "text": "firebase App",
+                "text": "firebaseAPI使用",
                 "file": "firebaseApp.md"
             },
             {
@@ -78,11 +78,11 @@
                 "file": "lineBot.md"
             },
             {
-                "text": "畫面截圖",
+                "text": "html2canvas截圖",
                 "file": "screenShot.md"
             },
             {
-                "text": "websocket 和 socketIO",
+                "text": "socketIO 使用",
                 "file": "websocketAndSocketIO.md"
             }
         ]
@@ -95,10 +95,6 @@
                 "file": "vue3AndVite.md"
             },
             {
-                "text": "vue2 And Vue-cli",
-                "file": "vue2AndVue-cli.md"
-            },
-            {
                 "text": "vue3 slot",
                 "file": "card.md"
             },
@@ -107,8 +103,12 @@
                 "file": "accountApp.md"
             },
             {
-                "text": "Quasar App",
+                "text": "vue3 & Quasar App",
                 "file": "quasarApp.md"
+            },
+            {
+                "text": "vue2 And Vue-cli",
+                "file": "vue2AndVue-cli.md"
             }
         ]
     }

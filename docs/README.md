@@ -27,7 +27,7 @@ Nuxt3 app，彙整第三方服務使用、實作流程和學習紀錄等筆記
 Vue3撰寫，並使用Quasar庫。
 
 ## 技術累積
-### FrontEnd
+FrontEnd
 <p align="left" class='left'>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
@@ -39,7 +39,7 @@ Vue3撰寫，並使用Quasar庫。
     <img src="https://i.imgur.com/KCqn69X.png" alt="vuejs" width="40" height="40"/>
 </p>
 
-### BackEnd
+BackEnd
 
 <p align="left" class='left'>
     <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" width="40" height="40"/> 
@@ -50,7 +50,7 @@ Vue3撰寫，並使用Quasar庫。
     
 </p>
 
-### others
+Others
 
 <p align="left" class='left'> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>

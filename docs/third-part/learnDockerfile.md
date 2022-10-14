@@ -49,7 +49,7 @@ docker tag node12-app jason0103/node12-app:1
 
 ```
 
-### step5
+### step5 publish to hub
 
 push the image to your registry of docker hub
 

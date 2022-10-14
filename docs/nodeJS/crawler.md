@@ -6,12 +6,14 @@ tags: 學習
 
 [[toc]]
 
-參考鐵人賽的系列文章，使用 NodeJS 來實作網頁資料爬取和儲存於 google 表單，在嘗試過程中把系列文的 selenium-webdriver 套件改用 puppeteer 和 cheerio，而該系列文主要針對的是臉書和 IG 的追蹤數爬取，我則針對 yahoo 入口頁面的新聞和 momo 購物網的商品搜尋資訊。
+參考鐵人賽的系列文章，使用 NodeJS 來實作網頁資料爬取和儲存於 google 表單，在嘗試過程中把系列文的 selenium-webdriver 套件改用 puppeteer 和 cheerio，
+而該系列文主要針對的是臉書和 IG 的追蹤數爬取，我則針對 yahoo 入口頁面的新聞和 momo 購物網的商品搜尋資訊。
 
 ## puppeteer、cheerio、googleapis
 
 - [puppeteer](https://www.npmjs.com/package/puppeteer)
-  提供基於瀏覽器操作行為的 API，也可以截取圖片、產生 PDF。使用概念上要瞭解瀏覽器渲染 DOM 的生命週期，以及對於網站 url 的規則去分析。在資料公開的網站，url 的 path 和 query 部份，通常就指向對應的資料內容。
+  提供基於瀏覽器操作行為的 API，也可以截取圖片、產生 PDF。使用概念上要瞭解瀏覽器渲染 DOM 的生命週期，以及對於網站 url 的規則去分析。
+  在資料公開的網站，url 的 path 和 query 部份，通常就指向對應的資料內容。
 
 > momo 搜尋產品頁
 > https://www.momoshop.com.tw/search/searchShop.jsp?keyword=$keyword
@@ -29,27 +31,26 @@ tags: 學習
 ## 代碼
 
 - [puppet.js](https://github.com/lian0103/nodeServices/blob/main/services/puppet.js)
-  可以理解為瀏覽器操作流程
+  腳本可以理解為操作瀏覽器來更新畫面的流程
 
 ```javascript
-() => {
-  const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer');
 
-  async function puppetGetWebContent(webUrl) {
-    const browser = await puppeteer.launch({
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-      ignoreDefaultArgs: ['--disable-extensions'],
-      headless: true,
-    });
+async function puppetGetWebContent(webUrl) {
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    ignoreDefaultArgs: ['--disable-extensions'],
+    headless: true,
+  });
 
-    const page = await browser.newPage();
-    await page.goto(webUrl);
-    const content = await page.content();
-    await browser.close();
+  const page = await browser.newPage();
+  await page.goto(webUrl);
+  const content = await page.content();
+  await browser.close();
 
-    return content;
-  }
-};
+  return content;
+}
+
 ```
 
 - [momoCrawler.js](https://github.com/lian0103/nodeServices/blob/main/services/momoCrawler.js)
@@ -60,6 +61,5 @@ tags: 學習
   爬取資料後，將它存放到線上 google 表單。
   ![](https://i.imgur.com/brb2Pfj.png)
 
-## 參考資源
-
+## 參考
 - [行銷廣告、電商小編的武器，FB & IG 爬蟲專案從零開始](https://ithelp.ithome.com.tw/users/20103256/ironman/2940)

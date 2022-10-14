@@ -2,22 +2,25 @@
 tags: node 工具
 ---
 
-# 自動生成demo文件
+# 工具自動生成文檔
 
 [[toc]]
 
-在新的 GT UI 檔案結構中，packages 資料夾內包含了各元件的資料夾，這相對之前的改變是要讓展示的代碼分割出來，同時也是為了能自動化生成匯出檔做的安排，這能讓日後對相關的維護和開發容易。
-這裡的匯出檔(packages/insex.js)，即是透過模板和 list.json 的資料去生成。
+在GT UI檔案結構中，要把package資料夾內的各元件展示的代碼在開發時使用，也在展示頁面終讓其他開發者直接看到展示的代碼，這裡使用了幾項工具來達成。
+
+
+首先，匯出檔(packages/insex.js)，即是透過模板和 list.json 的資料去生成。
 ![](https://i.imgur.com/BZSxXhV.jpg)
 
 展示頁的畫面，元件的效果和開發者的代碼可以一同顯示，也是透過路由參數改變後去對應該元件的 dmeo.vue 檔。
 ![](https://i.imgur.com/INe38rl.jpg)
 
-> 概念來自:https://github.com/jrainlau/MY-Kit
-> 主要調整的部分在於該專案使用一些方法要去動態 import md 檔，本地開發能正常，但打包後需要調整成 fetch 的作法，這部分我在使用 gitgub page 測試時未能成功。
-> 因此，我改成在打包前就去生成 demo 檔的內容，也就不用把 md 檔一併佈署在 web server。
 
-## 工具一 inquirer
+:::tip
+主要調整的部分在於該專案使用一些方法要去動態 import md 檔，本地開發能正常，但打包後需要調整成 fetch 的作法，這部分我在使用 gitgub page 測試時未能成功。
+因此，我改成在打包前就去生成 demo 檔的內容，也就不用把 md 檔一併佈署在 web server。
+:::
+## inquirer
 
 很強大的輸入工具，可以自定義各種類型的問題，並做驗證、過濾、預設值、清單等等功能，最後會回傳一個回答的物件。
 
@@ -91,7 +94,7 @@ tags: node 工具
 
 ```
 
-## 工具二 fs-extra
+## fs-extra
 
 讀取檔案與寫入檔案的工具。
 
@@ -102,7 +105,6 @@ tags: node 工具
 基本範例:
 
 ```javascript
-()=>{
 const fs = require('fs-extra');
 const path = require('path');
 
@@ -122,10 +124,9 @@ function write(fileContent) {
 }
 
 write(read());
-}
 ```
 
-## 工具三 handlebars
+## handlebars
 
 把.tpl 格式的模板檔案中，有用{{}}括號包起的變數替換掉，編譯成要匯出的檔案。
 [handlebars npm](https://www.npmjs.com/package/handlebars)
@@ -179,3 +180,6 @@ module.exports = {
   genObjFile,
 };
 ```
+
+## 參考
+[建置doc](https://github.com/jrainlau/MY-Kit)

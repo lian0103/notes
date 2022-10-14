@@ -10,13 +10,13 @@
 ## 安裝vitest
 
 
-1.安裝指令 
+### 安裝指令 
 ```shell
 npm install -D vitest
 ```
 [vitest doc](https://vitest.dev/guide/#adding-vitest-to-your-project)
 
-2.新增指令與參數
+### 新增指令與參數
 
 ```json
 //package.json
@@ -28,13 +28,13 @@ npm install -D vitest
 
 設定為測試相關連的檔案模式 [vitest --coverage](https://vitest.dev/config/#coverage)
 
+### 新增測試腳本檔    
+**在__test__資料夾下，以xxx.spec.js命名**
 
-3.新增測試腳本檔
-在__test__資料夾下，以xxx.spec.js命名
 ![](https://i.imgur.com/UasFjlM.jpg)   
 
 
-在vite設定中也要把測試檔案的路徑加入。
+**在vite設定中也要把測試檔案的路徑加入。**
 ```javascript
 //vite.confit.js
 import { defineConfig } from 'vite';
@@ -62,13 +62,11 @@ describe('測試GButton', () => {
     })
 })
 ```
->
->describe 用來描述測試項目的群組
->
->it 測試項目
->
->render 渲染函式
->
+:::tip
+describe 用來描述測試項目的群組
+it 測試項目
+render 渲染函式
+:::
 
 ## 範例測試
 
@@ -100,11 +98,11 @@ it('項目2 渲染屬性yellow按鈕', async () => {
 
 ![](https://i.imgur.com/9M4jfxt.jpg)
 
-::info
+:::tip
 **覆蓋率報告**
 - % Stmts (語句覆蓋率) 程式碼中的每個語句是否皆有執行。
 - % branch(分支覆蓋率) 當程式碼中有分支時，例如 if-else，分支內容是否皆有執行。
 - % Funcs(功能覆蓋率) 程式碼中的每個功能是否皆有執行。
 - % Lines(行覆蓋率) 指的是程式碼文件中的每個可執行行，是否皆有執行。
 - Uncovered Line #s 未執行程式碼於檔案中的行數
-::
+:::

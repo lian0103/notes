@@ -55,7 +55,7 @@ NodeJS生態倚賴許多NPM中的套件庫，可以用來協助架設各種Web�
 ## 串接MySQL
 本地安裝MySQL。在安裝成功後，可以先使用workbench做連線測試，這組資訊記錄下來之後要讓Node做連線使用。
 
-- 連線測試
+### 連線測試
 ![](https://i.imgur.com/lC9qWYd.jpg)
 ![](https://i.imgur.com/XB5c2Bt.jpg)
 
@@ -64,13 +64,11 @@ NodeJS生態倚賴許多NPM中的套件庫，可以用來協助架設各種Web�
 ![](https://i.imgur.com/OrOogrN.jpg)
 
 
-- config/db.js
+### config/db.js
 
 [NPM mysql2](https://www.npmjs.com/package/mysql2)
 
-```
-()=>{
-
+```javascript
 require("dotenv").config(); //藉此讀取.env的參數
 const mysql = require('mysql2'); //連線資料庫所使用的套件
 
@@ -81,14 +79,12 @@ const pool = mysql.createPool({
   password: process.env.DB_PASSWORD,
   port: process.env.DB_PORT
 });
-}
 
 module.exports = pool.promise();//支持非同步處理的連線池物件
-
 ```
 
-- .env檔
-```shell=
+### .env檔
+```
 # DATABASE CONNECTION ENVIRONMENT VARIABLES
 DB_HOST=localhost
 DB_USER=root
@@ -98,10 +94,10 @@ DB_PORT=3306
 ```
 
 
-- models/Post.js
+### models/Post.js
 建立一個資料類的Model，並實作資料操作的方法，如CRUD。這同時是透過mysql2的API，來執行sql指令。
 
-```
+```javascript
 const db = require('../config/db');
 class Post {
   constructor(title, body) {
@@ -136,14 +132,14 @@ class Post {
 透過NodeJs Express所啟動的Web服務，連線的網域於 http://localhost:3000
 並可監聽來訪請求的路徑與HTTP連線方法(GET、POST、UPDATE、DELTE..)對應。
 
-- server.js
-```
+### server.js
+```javascript
 //...(略)
 app.use('/posts', require('./routes/postRoutes'));
 
 ```
-- routes/postRoutes.js
-```
+### routes/postRoutes.js
+```javascript
 const express = require('express');
 const postControllers = require('../controllers/postControllers')
 const router = express.Router();
@@ -159,10 +155,10 @@ module.exports = router;
 ```
 
 
-- Postman測試連線
+### Postman測試連線
 GET方法與路徑/posts，則可對應去呼叫控制層的資料操作方法，並透過exprss路由的回傳物件將資料回傳。
 
-```
+```javascript
 //postControllers.js
 const Post = require('../models/Post');
 
@@ -179,7 +175,7 @@ exports.getAllPosts = async (req, res, next) => {
 ```
 
 
-GET  /posts
+**GET  /posts**
 
 ![](https://i.imgur.com/cjUhayn.jpg)
 
@@ -191,8 +187,8 @@ GET  /posts
 
 使用表單物件和POST方法傳送檔案，formidable可做為中間層把檔案的資訊做解析。解析後的結果，再利用mv做搬運。
 
-- fileController.js
-```
+### fileController.js
+``` javascript
 const formidable = require('formidable');
 const mv = require('mv');
 const path = require('path');
@@ -233,9 +229,8 @@ exports.uploadFile = async (req, res, next) => {
 
 [Express SendFile API](http://expressjs.com/zh-tw/api.html#res.sendFile)
 
-- fileController.js
-```
-
+### fileController.js
+```javascript
 exports.getFile = async (req, res, next) => {
   const fileName = req.params.fileName;
   const options = {
@@ -251,20 +246,20 @@ exports.getFile = async (req, res, next) => {
 
 ```
 
-- 取得結果
+### 取得結果
 
-GET /file/:fileName
+**GET /file/:fileName**
 
 ![](https://i.imgur.com/0eSrCho.jpg)
 
 
 ## 寄送郵件
-- helpers/mail.js
+### helpers/mail.js
 
 支持SMTP、Gmail發送的套件
 [nodemailer](https://www.npmjs.com/package/nodemailer)
 
-```
+```javascript
 const logger = require('./logger');
 const nodemailer = require('nodemailer');
 
@@ -302,7 +297,7 @@ const sendEmail = (options = {}) => {
 };
 ```
 
-- 應用程式密碼
+### 應用程式密碼
 ![](https://i.imgur.com/SzAGCvv.jpg)
 
 :::warning
