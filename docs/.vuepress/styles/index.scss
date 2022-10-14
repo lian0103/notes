@@ -4,25 +4,6 @@ html.dark {
 
 .flexBox{
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
-  .empty{
-    height: 20px;
-    width: 100%;
-  }
-  &.column{
-    margin-left: 20px;
-    flex-direction: column;
-    img:nth-child(1){
-      width: 80%;
-      margin-right: auto;
-    }
-    img:nth-child(3){
-      width: 55%;
-      margin-left: auto;
-    } 
-  }
 }
 
 img.mainImg{
@@ -66,20 +47,6 @@ p.left {
 }
 
 @media screen and (max-width: 600px) {
-  .flexBox{
-    flex-direction: column;
-    .empty{
-      height: 0px;
-      width: 0%;
-    }
-    &.column{
-      margin-left: 0px;
-      flex-direction: row;
-      img{
-        display: none;
-      }
-    }
-  }
   img.mainImg{
     max-width: 100%;
   }
