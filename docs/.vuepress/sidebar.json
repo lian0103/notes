@@ -1,5 +1,14 @@
 [
     {
+        "folder": "services",
+        "notes": [
+            {
+                "text": "買個自己的Domain",
+                "file": "googleDomain.md"
+            }
+        ]
+    },
+    {
         "folder": "nodeJS",
         "notes": [
             {
