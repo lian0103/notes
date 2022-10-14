@@ -2,8 +2,14 @@
 title: 首頁
 ---
 
-![](./.vuepress/public/images/cat.jpg)
-
+<div class='flexBox'>
+ <img src='images/cat.jpg' class='mainImg'/>
+ <div class='flexBox column'>
+  <img src='images/cat2.jpg' class='mainImg'/>
+  <div class='empty'></div>
+  <img src='images/cat3.jpg' class='mainImg'/>
+ </div>
+</div>
 <div class="rainbow-text fontBig">
     學不動，就躺平吧! 
 </div>

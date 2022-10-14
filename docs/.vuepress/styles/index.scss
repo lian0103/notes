@@ -2,6 +2,33 @@ html.dark {
   --c-text: #fff;
 }
 
+.flexBox{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .empty{
+    height: 20px;
+    width: 100%;
+  }
+  &.column{
+    margin-left: 20px;
+    flex-direction: column;
+    img:nth-child(1){
+      width: 80%;
+      margin-right: auto;
+    }
+    img:nth-child(3){
+      width: 55%;
+      margin-left: auto;
+    } 
+  }
+}
+
+img.mainImg{
+  max-width: 250px;
+}
+
 .navbar {
   .logo {
     border-radius: 100%;
@@ -9,20 +36,22 @@ html.dark {
 }
 
 p.left {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   img{
-    width: 50px;
+    width: 35px;
   }
 }
 
 .fontBig {
-  font-size: 3.75rem;
+  font-size: 1.75rem;
   line-height: 1;
   letter-spacing: 0.3rem;
   font-weight: 700;
+  margin: 10px 0;
 }
 
 .rainbow-text {
@@ -37,6 +66,24 @@ p.left {
 }
 
 @media screen and (max-width: 600px) {
+  .flexBox{
+    flex-direction: column;
+    .empty{
+      height: 0px;
+      width: 0%;
+    }
+    &.column{
+      margin-left: 0px;
+      flex-direction: row;
+      img{
+        display: none;
+      }
+    }
+  }
+  img.mainImg{
+    max-width: 100%;
+  }
+
   .theme-default-content {
     overflow-x: hidden;
   }
@@ -47,7 +94,7 @@ p.left {
     }
   }
   .fontBig {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     letter-spacing: 吽rem;
   }
 }
