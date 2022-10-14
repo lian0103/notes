@@ -9,9 +9,13 @@ html.dark {
 }
 
 p.left {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  img{
+    width: 50px;
+  }
 }
 
 .fontBig {
@@ -35,6 +39,12 @@ p.left {
 @media screen and (max-width: 600px) {
   .theme-default-content {
     overflow-x: hidden;
+  }
+
+  p.left {
+    img{
+      width: 30px;
+    }
   }
   .fontBig {
     font-size: 1.75rem;
