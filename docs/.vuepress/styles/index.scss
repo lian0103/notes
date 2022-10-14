@@ -1,15 +1,40 @@
-html.dark{
-    --c-text:#fff;
+html.dark {
+  --c-text: #fff;
 }
 
-.navbar{
-    .logo{
-        border-radius: 100%;
-    }
+.navbar {
+  .logo {
+    border-radius: 100%;
+  }
 }
 
-p.left{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+p.left {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fontBig {
+  font-size: 3.75rem;
+  line-height: 1;
+  letter-spacing: .3rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .fontBig {
+    font-size: 1.75rem;
+    letter-spacing: 吽rem;
+  }
+}
+
+.rainbow-text {
+  --tw-gradient-from: #6d28d9;
+  --tw-gradient-to: rgb(109 40 217 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #db2777;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
