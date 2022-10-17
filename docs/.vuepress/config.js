@@ -1,6 +1,7 @@
 import { defineUserConfig, defaultTheme } from 'vuepress';
 import sidebarJSON from './sidebar.json';
 import { seoPlugin } from "vuepress-plugin-seo2";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 
 const mode = process.env.NODE_ENV;
 
@@ -31,7 +32,10 @@ export default defineUserConfig({
         image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
-      })
+      }),
+      googleAnalyticsPlugin({
+        id: 'G-H4LLC7B9XY',
+      }),
     ],
   ],
   theme: defaultTheme({
