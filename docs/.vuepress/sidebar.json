@@ -67,6 +67,10 @@
         "folder": "third-part",
         "notes": [
             {
+                "text": "瞭解webpack、Vite的發展脈絡",
+                "file": "webpackAndVite.md"
+            },
+            {
                 "text": "D3畫甘特圖",
                 "file": "d3WithGantte.md"
             },

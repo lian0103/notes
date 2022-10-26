@@ -10,6 +10,10 @@ img.mainImg{
   max-width: 250px;
 }
 
+img.imgInMd{
+  max-width: 250px;
+}
+
 .navbar {
   .logo {
     border-radius: 100%;
@@ -49,6 +53,10 @@ p.left {
 @media screen and (max-width: 600px) {
   img.mainImg{
     max-width: 100%;
+  }
+
+  img.imgInMd{
+    max-width: 90%;
   }
 
   .theme-default-content {
