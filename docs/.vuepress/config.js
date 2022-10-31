@@ -2,6 +2,10 @@ import { defineUserConfig, defaultTheme } from 'vuepress';
 import sidebarJSON from './sidebar.json';
 import { seoPlugin } from "vuepress-plugin-seo2";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { getDirname, path } from '@vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
 
 const mode = process.env.NODE_ENV;
 
@@ -36,6 +40,9 @@ export default defineUserConfig({
       googleAnalyticsPlugin({
         id: 'G-H4LLC7B9XY',
       }),
+      registerComponentsPlugin({
+        componentsDir: path.resolve(__dirname, './components'),
+      })
     ],
   ],
   theme: defaultTheme({

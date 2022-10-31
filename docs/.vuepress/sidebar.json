@@ -112,6 +112,10 @@
                 "file": "vue3AndVite.md"
             },
             {
+                "text": "tree元件遞迴實作",
+                "file": "tree.md"
+            },
+            {
                 "text": "vue3 slot",
                 "file": "card.md"
             },
