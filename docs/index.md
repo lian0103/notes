@@ -1,12 +1,6 @@
 ---
 title: 首頁
 ---
-![](./.vuepress/public/images/cat.jpg)
-
-<div class="rainbow-text fontBig">
-我不確定這樣夠不夠高效，但可以先保住目的...XD
-</div>
-
 ## 筆記更新 :date:
 <recent-list />
 
@@ -16,8 +10,12 @@ title: 首頁
 支援 Vue3 的元件庫，持續更新中。
 
 ## 前人背影 :star:
-[Anthony Fu](https://antfu.me/posts)    
-[The Net Minja](https://www.youtube.com/c/TheNetNinja)
+- [Anthony Fu](https://antfu.me/posts)    
+
+## 學習頻道 :video_camera:
+- [The Net Minja](https://www.youtube.com/c/TheNetNinja)
+- [Pheezx Coding](https://www.youtube.com/c/PheezxCoding)
+- [Vivian NTU MiuLab](https://www.youtube.com/c/VivianNTUMiuLab)
 
 ## 搬磚實作 :construction_worker:
 
@@ -35,8 +33,7 @@ Vue3搭配Quasar。
 
 ## 技術累積 :tada:
 
-FrontEnd
-
+- FrontEnd
 <p align="left" class='left'>
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
@@ -48,19 +45,16 @@ FrontEnd
     <img src="https://i.imgur.com/KCqn69X.png" alt="vuejs" />
 </p>
 
-BackEnd
-
+- BackEnd
 <p align="left" class='left'>
     <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" /> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" />    
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" />
-    
 </p>
 
-Others
-
+- tools
 <p align="left" class='left'> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" />
@@ -74,3 +68,5 @@ Others
 ## 聯繫我 :mailbox:
 
 k1319900103@gmail.com
+
+![](./.vuepress/public/images/cat.jpg)
