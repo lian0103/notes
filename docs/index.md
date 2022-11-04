@@ -4,10 +4,10 @@ title: 首頁
 ![](./.vuepress/public/images/cat.jpg)
 
 <div class="rainbow-text fontBig">
-    學不動，就躺平吧! 
+我不確定這樣夠不夠高效，但可以先保住目的...XD
 </div>
 
-## 近期更新 :date:
+## 筆記更新 :date:
 <recent-list />
 
 ## 工作專案 :package:
@@ -15,7 +15,11 @@ title: 首頁
 [大樹後台元件](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)
 支援 Vue3 的元件庫，持續更新中。
 
-## 作品集 :construction_worker:
+## 前人背影 :star:
+[Anthony Fu](https://antfu.me/posts)    
+[The Net Minja](https://www.youtube.com/c/TheNetNinja)
+
+## 搬磚實作 :construction_worker:
 
 [筆記](https://nuxt3-notes.vercel.app/)  
 Nuxt3 app，彙整第三方服務使用、實作流程和學習紀錄等筆記
@@ -27,9 +31,9 @@ Nuxt3 app，彙整第三方服務使用、實作流程和學習紀錄等筆記
 使用 Hexo 開源庫，撰寫技術心得。
 
 [花費紀錄](https://account-app-f70c0.web.app/#/)  
-Vue3 撰寫，並使用 Quasar 庫。
+Vue3搭配Quasar。
 
-## 技術累積 :star:
+## 技術累積 :tada:
 
 FrontEnd
 
@@ -65,6 +69,7 @@ Others
     <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="git" /> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" />
 </p>
+
 
 ## 聯繫我 :mailbox:
 
