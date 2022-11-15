@@ -100,7 +100,7 @@ Image、DataURL、ObjectURL、Blob、Canvas、ImageData、ArrayBuffer、ImageURL
 ---
 
 ## 連結
-[html2canvas官方doc](https://www.npmjs.com/package/html2canvas)
-[FileSaver官方doc](https://github.com/eligrey/FileSaver.js)
-[聊一聊 15.5K 的 FileSaver，是如何工作的](https://www.gushiciku.cn/pl/gmpt/zh-tw)
+1. [html2canvas官方doc](https://www.npmjs.com/package/html2canvas)
+2. [FileSaver官方doc](https://github.com/eligrey/FileSaver.js)
+3. [聊一聊 15.5K 的 FileSaver，是如何工作的](https://www.gushiciku.cn/pl/gmpt/zh-tw)
 

@@ -41,7 +41,7 @@ git push heroku ${分支名稱} #main
 
 
 ---
-參考資源
+## 參考
 [神Q超人 heroku佈署基礎教學](https://medium.com/enjoy-life-enjoy-coding/heroku-%E6%90%AD%E9%85%8D-git-%E5%9C%A8-heroku-%E4%B8%8A%E9%83%A8%E7%BD%B2%E7%B6%B2%E7%AB%99%E7%9A%84%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E5%AD%B8-bf4fd6f998b8)
 
 

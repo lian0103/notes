@@ -34,9 +34,6 @@ devtool ws 建立
 ![](https://i.imgur.com/bOmTOAK.jpg)
 
 ## 連結
-
-[專案連結](https://github.com/lian0103/node_chatroom)
-
-[聊天室](http://jason-node-chatroom.herokuapp.com/)
-
-[MDN WebSockets_API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
+1. [專案連結](https://github.com/lian0103/node_chatroom)
+2. [聊天室](http://jason-node-chatroom.herokuapp.com/)
+3. [MDN WebSockets_API](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
