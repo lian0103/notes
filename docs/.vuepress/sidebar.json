@@ -71,6 +71,10 @@
         "folder": "third-part",
         "notes": [
             {
+                "text":"PDF簽名功能",
+                "file":"pdfjs-distAndjspdf.md"
+            },
+            {
                 "text": "瞭解webpack、Vite的發展脈絡",
                 "file": "webpackAndVite.md"
             },
