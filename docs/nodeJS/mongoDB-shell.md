@@ -50,10 +50,9 @@ db.[collectionName].aggregate([條件1,條件2,...])
 
 ```
 
-::: info 
+<Info>
 語法提示可在mongo shell打出開頭後，按tab鍵
-:::
-
+</info>
 
 ## 實作
 
