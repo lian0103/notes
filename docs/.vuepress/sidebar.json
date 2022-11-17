@@ -16,6 +16,10 @@
                 "file": "mongoDB.md"
             },
             {
+                "text": "MongoDB Shell指令",
+                "file": "mongoDB-shell.md"
+            },
+            {
                 "text": "資料爬取與儲存",
                 "file": "crawler.md"
             },
