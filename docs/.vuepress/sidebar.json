@@ -83,7 +83,11 @@
                 "file": "webpackAndVite.md"
             },
             {
-                "text": "D3畫甘特圖",
+                "text": "D3js繪製台灣行政區地圖",
+                "file": "d3GeoMap.md"
+            },
+            {
+                "text": "D3js繪製甘特圖",
                 "file": "d3WithGantte.md"
             },
             {

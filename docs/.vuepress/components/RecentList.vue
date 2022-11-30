@@ -4,6 +4,11 @@
   <div>
     <ul>
       <li>
+        <a href="./third-part/d3GeoMap.html"
+          >D3js繪製台灣行政區地圖 - 2022-11-30</a
+        >
+      </li>
+      <li>
         <a href="./nodeJS/mongoDB-shell.html"
           >MongoDB Shell指令 - 2022-11-17</a
         >
@@ -26,11 +31,6 @@
       <li>
         <a href="./third-part/webpackAndVite.html"
           >瞭解 webpack、Vite 的發展脈絡 - 2022-10-26</a
-        >
-      </li>
-      <li>
-        <a href="./services/googleDomain.html"
-          >買個Google Domain - 2022-10-14</a
         >
       </li>
     </ul>
