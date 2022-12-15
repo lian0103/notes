@@ -3,7 +3,7 @@
         "folder": "services",
         "notes": [
             {
-                "text": "買個自己的Domain",
+                "text": "使用google domain",
                 "file": "googleDomain.md"
             }
         ]
@@ -11,6 +11,10 @@
     {
         "folder": "nodeJS",
         "notes": [
+            {
+                "text": "MongoDB 儲存職缺資訊",
+                "file": "mongoDBcompass.md"
+            },
             {
                 "text": "MongoDB 本地與雲端",
                 "file": "mongoDB.md"
@@ -25,7 +29,7 @@
             },
             {
                 "text": "NodeJS架設Web服務",
-                "file": "nodeExpressApp.md"
+                "file": "nodeExpressApp.md" 
             }
         ]
     },
@@ -45,7 +49,7 @@
                 "file": "buildByVite.md"
             },
             {
-                "text": "生成開發文檔",
+                "text": "開發文檔生成腳本",
                 "file": "genDoc.md"
             },
             {
@@ -55,7 +59,7 @@
         ]
     },
     {
-        "folder": "nuxtJS",
+        "folder": "nuxt3",
         "notes": [
             {
                 "text": "Nuxt3 功能",

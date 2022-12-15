@@ -2,11 +2,11 @@
 tags: 學習
 ---
 
-# NodeJS架設Web服務
+# NodeJS架設Web應用
 
 [[toc]]
 
-NodeJS生態倚賴許多NPM中的套件庫，可以用來協助架設各種Web服務，以下是架設過程的紀錄。
+NodeJS生態倚賴許多NPM中的套件庫，可以用來協助架設各種Web應用，以下是架設過程的紀錄。
 
 [專案地址](https://github.com/lian0103/NodeAPI)
 
