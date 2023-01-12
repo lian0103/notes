@@ -14,7 +14,7 @@ console.log(mode);
 export default defineUserConfig({
   base: mode === 'development' ? '/' : './',
   lang: 'zh-tw',
-  title: "Jason's Notes",
+  title: "開發筆記",
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     ['meta', { property: 'keywords', content: 'JavaScript, vue, 前端, 網頁開發, 開發人員' }],

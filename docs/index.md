@@ -1,23 +1,15 @@
 ---
 title: 首頁
 ---
-## 筆記更新 :date:
+##  :date: 筆記
 <recent-list />
 
-## 工作專案 :package:
+## :package: 專案 
 
-[大樹後台元件](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)
-支援 Vue3 的元件庫，持續更新中。
+[大樹後台元件](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)     
+Vue3後台元件庫。
 
-## 前人背影 :star:
-- [Anthony Fu](https://antfu.me/posts)    
-
-## 學習頻道 :video_camera:
-- [The Net Minja](https://www.youtube.com/c/TheNetNinja)
-- [Pheezx Coding](https://www.youtube.com/c/PheezxCoding)
-- [Vivian NTU MiuLab](https://www.youtube.com/c/VivianNTUMiuLab)
-
-## 搬磚實作 :construction_worker:
+## :construction_worker: 實作 
 
 [筆記](https://nuxt3-notes.vercel.app/)  
 Nuxt3 app，彙整第三方服務使用、實作流程和學習紀錄等筆記
@@ -31,7 +23,7 @@ Nuxt3 app，彙整第三方服務使用、實作流程和學習紀錄等筆記
 [花費紀錄](https://account-app-f70c0.web.app/#/)  
 Vue3搭配Quasar。
 
-## 技術累積 :tada:
+## :tada: 累積 
 
 - FrontEnd
 <p align="left" class='left'>
@@ -54,7 +46,7 @@ Vue3搭配Quasar。
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" />
 </p>
 
-- tools
+- Tools
 <p align="left" class='left'> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" />
@@ -65,8 +57,11 @@ Vue3搭配Quasar。
 </p>
 
 
-## 聯繫我 :mailbox:
-
-k1319900103@gmail.com
+## :new: 關於我 
 
 ![](./.vuepress/public/images/cat.jpg)
+
+:boy: Jason Lian     
+:house_with_garden: 新北/桃園 , Taiwan     
+:mailbox: k1319900103@gmail.com    
+

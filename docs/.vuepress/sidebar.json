@@ -1,40 +1,47 @@
 [
     {
-        "folder": "services",
+        "folder": "Vue",
         "notes": [
             {
-                "text": "使用google domain",
-                "file": "googleDomain.md"
+                "text": "vue3 And Vite",
+                "file": "vue3AndVite.md"
+            },
+            {
+                "text": "tree元件遞迴實作",
+                "file": "tree.md"
+            },
+            {
+                "text": "vue3 slot",
+                "file": "card.md"
+            },
+            {
+                "text": "vue3 & Firebase App",
+                "file": "accountApp.md"
+            },
+            {
+                "text": "vue3 & Quasar App",
+                "file": "quasarApp.md"
+            },
+            {
+                "text": "vue2 And Vue-cli",
+                "file": "vue2AndVue-cli.md"
+            },
+            {
+                "text": "Nuxt3 功能",
+                "file": "nuxtFeat.md"
+            },
+            {
+                "text": "Nuxt3 App建置",
+                "file": "nuxtApp.md"
+            },
+            {
+                "text": "Nuxt3 App顏色模式",
+                "file": "colorMode.md"
             }
         ]
     },
     {
-        "folder": "nodeJS",
-        "notes": [
-            {
-                "text": "MongoDB 儲存職缺資訊",
-                "file": "mongoDBcompass.md"
-            },
-            {
-                "text": "MongoDB 本地與雲端",
-                "file": "mongoDB.md"
-            },
-            {
-                "text": "MongoDB Shell指令",
-                "file": "mongoDB-shell.md"
-            },
-            {
-                "text": "資料爬取與儲存",
-                "file": "crawler.md"
-            },
-            {
-                "text": "NodeJS架設Web服務",
-                "file": "nodeExpressApp.md" 
-            }
-        ]
-    },
-    {
-        "folder": "build-UI-Library",
+        "folder": "Build-UI-Library",
         "notes": [
             {
                 "text": "第三方UI庫的樣式複寫",
@@ -59,25 +66,37 @@
         ]
     },
     {
-        "folder": "nuxt3",
+        "folder": "NodeJS",
         "notes": [
             {
-                "text": "Nuxt3 功能",
-                "file": "nuxtFeat.md"
+                "text": "MongoDB 儲存職缺資訊",
+                "file": "mongoDBcompass.md"
             },
             {
-                "text": "Nuxt3 App建置",
-                "file": "nuxtApp.md"
+                "text": "MongoDB 本地與雲端",
+                "file": "mongoDB.md"
             },
             {
-                "text": "Nuxt3 App顏色模式",
-                "file": "colorMode.md"
+                "text": "MongoDB Shell指令",
+                "file": "mongoDB-shell.md"
+            },
+            {
+                "text": "資料爬取與儲存",
+                "file": "crawler.md"
+            },
+            {
+                "text": "NodeJS架設Web服務",
+                "file": "nodeExpressApp.md" 
             }
         ]
     },
     {
-        "folder": "third-part",
+        "folder": "Stacks",
         "notes": [
+            {
+                "text": "使用google domain",
+                "file": "googleDomain.md"
+            },
             {
                 "text":"PDF簽名功能",
                 "file":"pdfjs-distAndjspdf.md"
@@ -117,35 +136,6 @@
             {
                 "text": "socketIO 使用",
                 "file": "websocketAndSocketIO.md"
-            }
-        ]
-    },
-    {
-        "folder": "vue-pratice",
-        "notes": [
-            {
-                "text": "vue3 And Vite",
-                "file": "vue3AndVite.md"
-            },
-            {
-                "text": "tree元件遞迴實作",
-                "file": "tree.md"
-            },
-            {
-                "text": "vue3 slot",
-                "file": "card.md"
-            },
-            {
-                "text": "vue3 & Firebase App",
-                "file": "accountApp.md"
-            },
-            {
-                "text": "vue3 & Quasar App",
-                "file": "quasarApp.md"
-            },
-            {
-                "text": "vue2 And Vue-cli",
-                "file": "vue2AndVue-cli.md"
             }
         ]
     }
