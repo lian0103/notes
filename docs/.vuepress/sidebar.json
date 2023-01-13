@@ -3,6 +3,10 @@
         "folder": "Vue",
         "notes": [
             {
+                "text": "建立前端腳手架",
+                "file": "npx.md"
+            },
+            {
                 "text": "vue3 And Vite",
                 "file": "vue3AndVite.md"
             },
