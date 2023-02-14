@@ -5,6 +5,10 @@
             {
                 "text": "環境建立",
                 "file": "ASP.NET-start.md"
+            },
+            {
+                "text": "套件管理與MVC-Controller",
+                "file": "ASP.NET-start2.md"
             }
         ]
     },
