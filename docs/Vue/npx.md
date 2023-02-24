@@ -4,17 +4,71 @@ head:
   - [meta, { name: description  , content: NPM npx vue3 template }]
 ---
 
+[[toc]]
 # GT前端專案模板
+版本號: v0.0.10-beta-4      
+整理常用的工具/庫，包含Vite、TailwindCSS、SCSS、Auto Import等配置。在概念上把他打包成一個NPM的npx腳手架工具，把模板的結構做COPY後來建立新專案。
 
-2022年，Vue的生態圈發展迅速，我把常用的工具/庫整合，包含Vite、TailwindCSS、SCSS、Auto Import等配置。在概念上把他打包成一個NPM的npx腳手架工具，就是把模板的結構做COPY的動作，看似與直接git clone專案類似，但未來可以再做到依照需要選擇套件、模板，用腳手架就會比較好擴充。
+## 建立專案
+```shell=
+npx gt-template@[版本號] [projectName] [template]
 
-[NPM倉庫](https://www.npmjs.com/package/gt-template)
+// ex. npx gt-template Hello 
 
-![](https://i.imgur.com/yheHBuu.png)
-
+// ex. npx gt-template Hello elementPlus
+```
 
 ## 啟動結果
-先安裝這個腳手架庫，再輸入建立專案的指令。
 ![](https://i.imgur.com/yf1U1WV.png)
 
 ![](https://i.imgur.com/SrSK4cc.png)
+
+### /Template 預設模板
+- Vite
+- Vue3
+- Vue-router
+- Axios
+- vueuse/core
+- Gsap
+- TailwindCSS
+- SCSS
+
+### /TemplateElementPlus 
+- Vite
+- Vue3
+- Vue-router
+- ElementPlus
+    已設置[按需打包](https://element-plus.org/zh-CN/guide/quickstart.html#%E6%8C%89%E9%9C%80%E5%AF%BC%E5%85%A5)
+- Axios 
+    已封裝 ./utils/request.js
+- vueuse/core
+- Gsap
+- @element-plus/icons-vue
+- SCSS
+- eslint
+- eslint-plugin-vue
+- Prettier
+
+**登入與權限驗證流程**      
+透過Vue-Router Guard管控、Web LocalStorage和共用Stores來實現。
+
+
+**官方推薦Pinia**
+優點之一 dev tool整合
+![](https://i.imgur.com/uWnUGKd.png)
+
+## VSCODE設定
+
+- 安裝插件
+Prettier - Code formatter
+ESLint
+
+- \[工作區設定\] 指向在專案內的.prettierrc
+![](https://i.imgur.com/UAZxPoP.png)
+
+
+## 相關連結
+[gt-template NPM倉庫](https://www.npmjs.com/package/gt-template)      
+[Vite](https://cn.vitejs.dev/)     
+[VueRouter](https://router.vuejs.org/)     
+[ElementPlus](https://element-plus.org/zh-CN/)      
