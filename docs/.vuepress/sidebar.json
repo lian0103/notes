@@ -61,7 +61,7 @@
         "folder": "Build-UI-Library",
         "notes": [
             {
-                "text": "第三方UI庫的樣式複寫",
+                "text": "ElementPlus樣式複寫",
                 "file": "designRules.md"
             },
             {
@@ -73,12 +73,16 @@
                 "file": "buildByVite.md"
             },
             {
-                "text": "開發文檔生成腳本",
+                "text": "Vitest元件測試",
+                "file": "Vitest.md"
+            },
+            {
+                "text": "開發文檔生成腳本v1",
                 "file": "genDoc.md"
             },
             {
-                "text": "Vitest元件測試",
-                "file": "Vitest.md"
+                "text": "開發文檔生成腳本v2",
+                "file": "genDoc2.md"
             }
         ]
     },
