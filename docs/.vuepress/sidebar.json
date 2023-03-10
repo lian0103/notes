@@ -13,47 +13,11 @@
         ]
     },
     {
-        "folder": "Vue",
+        "folder": "Books",
         "notes": [
             {
-                "text": "建立前端腳手架",
-                "file": "npx.md"
-            },
-            {
-                "text": "vue3 And Vite",
-                "file": "vue3AndVite.md"
-            },
-            {
-                "text": "tree元件遞迴實作",
-                "file": "tree.md"
-            },
-            {
-                "text": "vue3 slot",
-                "file": "card.md"
-            },
-            {
-                "text": "vue3 & Firebase App",
-                "file": "accountApp.md"
-            },
-            {
-                "text": "vue3 & Quasar App",
-                "file": "quasarApp.md"
-            },
-            {
-                "text": "vue2 And Vue-cli",
-                "file": "vue2AndVue-cli.md"
-            },
-            {
-                "text": "Nuxt3 功能",
-                "file": "nuxtFeat.md"
-            },
-            {
-                "text": "Nuxt3 App建置",
-                "file": "nuxtApp.md"
-            },
-            {
-                "text": "Nuxt3 App顏色模式",
-                "file": "colorMode.md"
+                "text": "web API設計閱讀筆記(一)",
+                "file": "webAPI_1.md"
             }
         ]
     },
@@ -107,7 +71,7 @@
             },
             {
                 "text": "NodeJS架設Web服務",
-                "file": "nodeExpressApp.md" 
+                "file": "nodeExpressApp.md"
             }
         ]
     },
@@ -119,8 +83,8 @@
                 "file": "googleDomain.md"
             },
             {
-                "text":"PDF簽名功能",
-                "file":"pdfjs-distAndjspdf.md"
+                "text": "PDF簽名功能",
+                "file": "pdfjs-distAndjspdf.md"
             },
             {
                 "text": "瞭解webpack、Vite的發展脈絡",
@@ -159,5 +123,51 @@
                 "file": "websocketAndSocketIO.md"
             }
         ]
+    },
+    {
+        "folder": "Vue",
+        "notes": [
+            {
+                "text": "建立前端腳手架",
+                "file": "npx.md"
+            },
+            {
+                "text": "vue3 And Vite",
+                "file": "vue3AndVite.md"
+            },
+            {
+                "text": "tree元件遞迴實作",
+                "file": "tree.md"
+            },
+            {
+                "text": "vue3 slot",
+                "file": "card.md"
+            },
+            {
+                "text": "vue3 & Firebase App",
+                "file": "accountApp.md"
+            },
+            {
+                "text": "vue3 & Quasar App",
+                "file": "quasarApp.md"
+            },
+            {
+                "text": "vue2 And Vue-cli",
+                "file": "vue2AndVue-cli.md"
+            },
+            {
+                "text": "Nuxt3 功能",
+                "file": "nuxtFeat.md"
+            },
+            {
+                "text": "Nuxt3 App建置",
+                "file": "nuxtApp.md"
+            },
+            {
+                "text": "Nuxt3 App顏色模式",
+                "file": "colorMode.md"
+            }
+        ]
     }
+
 ]
