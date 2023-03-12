@@ -22,36 +22,7 @@
         ]
     },
     {
-        "folder": "Build-UI-Library",
-        "notes": [
-            {
-                "text": "ElementPlus樣式複寫",
-                "file": "designRules.md"
-            },
-            {
-                "text": "GT UI使用",
-                "file": "library.md"
-            },
-            {
-                "text": "vite打包之情境",
-                "file": "buildByVite.md"
-            },
-            {
-                "text": "Vitest元件測試",
-                "file": "Vitest.md"
-            },
-            {
-                "text": "開發文檔生成腳本v1",
-                "file": "genDoc.md"
-            },
-            {
-                "text": "開發文檔生成腳本v2",
-                "file": "genDoc2.md"
-            }
-        ]
-    },
-    {
-        "folder": "NodeJS",
+        "folder": "Nodejs",
         "notes": [
             {
                 "text": "MongoDB 儲存職缺資訊",
@@ -63,10 +34,10 @@
             },
             {
                 "text": "MongoDB Shell指令",
-                "file": "mongoDB-shell.md"
+                "file": "mongoDBShell.md"
             },
             {
-                "text": "資料爬取與儲存",
+                "text": "Web Crawler & Store",
                 "file": "crawler.md"
             },
             {
@@ -136,10 +107,6 @@
                 "file": "vue3AndVite.md"
             },
             {
-                "text": "tree元件遞迴實作",
-                "file": "tree.md"
-            },
-            {
                 "text": "vue3 slot",
                 "file": "card.md"
             },
@@ -166,6 +133,39 @@
             {
                 "text": "Nuxt3 App顏色模式",
                 "file": "colorMode.md"
+            }
+        ]
+    },
+    {
+        "folder": "Vue3UI",
+        "notes": [
+            {
+                "text": "ElementPlus樣式複寫",
+                "file": "designRules.md"
+            },
+            {
+                "text": "GT UI使用",
+                "file": "library.md"
+            },
+            {
+                "text": "vite打包之情境",
+                "file": "buildByVite.md"
+            },
+            {
+                "text": "Vitest元件測試",
+                "file": "Vitest.md"
+            },
+            {
+                "text": "tree元件遞迴實作",
+                "file": "tree.md"
+            },
+            {
+                "text": "生成展示頁面的工具",
+                "file": "genDoc.md"
+            },
+            {
+                "text": "頁面文檔建構過程",
+                "file": "genDoc2.md"
             }
         ]
     }

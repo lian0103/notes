@@ -14,7 +14,7 @@ console.log(mode);
 export default defineUserConfig({
   base: mode === 'development' ? '/' : './',
   lang: 'zh-tw',
-  title: "開發筆記",
+  title: "Web Dev Notes",
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     ['meta', { property: 'keywords', content: 'JavaScript, vue, 前端, 網頁開發, 開發人員' }],
@@ -63,7 +63,7 @@ export default defineUserConfig({
       ...sidebarJSON.map((item) => {
         return {
           text: item.folder,
-          collapsible: true,
+          collapsible: false,
           children: item.notes.map((cItem) => {
             return {
               text: cItem.text,
