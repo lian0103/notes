@@ -28,12 +28,11 @@ web API設計當中，強調的是確認API的目標，並思考如何實現設�
 ## 章節五 界定API邊界
 > 透過活動流程和當中的工作故事，可以了解到那些服務是可以被劃分在同個API範疇。書中以購書流程為例，區分出了Shopping API、Order Creation API、Payment Processing API，這也是日後API模組的架構藍圖。
 
+
+--- 
+
 ![](https://i.imgur.com/P5JMd4o.jpg)
 
-
----
-## 查詢補充
-![](https://i.imgur.com/VPte64S.png)
 
 
 
