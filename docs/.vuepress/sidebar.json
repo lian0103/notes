@@ -74,15 +74,15 @@
                 "file": "d3WithGantte.md"
             },
             {
-                "text": "firebaseAPI使用",
+                "text": "FirebaseAPI使用",
                 "file": "firebaseApp.md"
             },
             {
-                "text": "heroku 使用",
+                "text": "Heroku 使用",
                 "file": "heroku.md"
             },
             {
-                "text": "docker 學習",
+                "text": "Docker 學習",
                 "file": "learnDockerfile.md"
             },
             {
@@ -94,7 +94,7 @@
                 "file": "screenShot.md"
             },
             {
-                "text": "socketIO 使用",
+                "text": "SocketIO 使用",
                 "file": "websocketAndSocketIO.md"
             }
         ]
@@ -107,23 +107,23 @@
                 "file": "npx.md"
             },
             {
-                "text": "vue3 And Vite",
-                "file": "vue3AndVite.md"
+                "text": "Vue3 And Vite",
+                "file": "Vue3AndVite.md"
             },
             {
-                "text": "vue3 slot",
+                "text": "Vue3 slot",
                 "file": "card.md"
             },
             {
-                "text": "vue3 & Firebase App",
+                "text": "Vue3 & Firebase App",
                 "file": "accountApp.md"
             },
             {
-                "text": "vue3 & Quasar App",
+                "text": "Vue3 & Quasar App",
                 "file": "quasarApp.md"
             },
             {
-                "text": "vue2 And Vue-cli",
+                "text": "Vue2 And Vue-cli",
                 "file": "vue2AndVue-cli.md"
             },
             {
@@ -152,7 +152,7 @@
                 "file": "library.md"
             },
             {
-                "text": "vite打包之情境",
+                "text": "Vite打包之情境",
                 "file": "buildByVite.md"
             },
             {
@@ -160,7 +160,7 @@
                 "file": "Vitest.md"
             },
             {
-                "text": "tree元件遞迴實作",
+                "text": "Tree元件遞迴實作",
                 "file": "tree.md"
             },
             {
