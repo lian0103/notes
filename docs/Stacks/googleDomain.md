@@ -6,7 +6,7 @@ head:
 
 # 買個Google Domain
 
-昨天看到一篇買google domain的分享，我只花了304元買了**jason-lian.page**。而要拿來幹嘛呢? 之前看到VuePress文檔後覺得這很適合拿來發佈md的筆記檔，這個花了錢的、屬於自己的網域名稱就拿來用用吧!
+只花了304元買了**jason-lian.page**。搭配VuePress文檔後，很適合拿來發佈md的筆記檔!
 
 ## 後台設定
 成功購買後，進入後台，可以看到剛剛已經花錢買好的網域名稱

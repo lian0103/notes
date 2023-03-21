@@ -54,6 +54,10 @@
         "folder": "Stacks",
         "notes": [
             {
+                "text": "使用google cloud run",
+                "file": "googleCloudRun.md"
+            },
+            {
                 "text": "使用google domain",
                 "file": "googleDomain.md"
             },

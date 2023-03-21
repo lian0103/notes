@@ -63,7 +63,7 @@ export default defineUserConfig({
       ...sidebarJSON.map((item) => {
         return {
           text: item.folder,
-          collapsible: false,
+          collapsible: true,
           children: item.notes.map((cItem) => {
             return {
               text: cItem.text,
