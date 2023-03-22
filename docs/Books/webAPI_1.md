@@ -6,6 +6,8 @@ tags: web API learning
 
 [[toc]]
 
+<img src="https://i.imgur.com/P5JMd4o.jpg" style="width:300px" />
+
 ## 章節一 初探web API設計
 - web API和軟體設計有相同的基本概念，如模組、封裝、低耦合、高內聚的特性，以應對持續變動和成長的需求。
 成功的API是為了不同使用者能夠和系統交換資訊，HTTP是其中一種主要的通訊協議，來達成請求/等待/回應的過程。
@@ -35,7 +37,6 @@ tags: web API learning
 
 --- 
 
-![](https://i.imgur.com/P5JMd4o.jpg)
 
 
 

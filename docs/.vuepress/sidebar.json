@@ -16,6 +16,10 @@
         "folder": "Books",
         "notes": [
             {
+                "text":"Docker閱讀筆記(一)",
+                "file":"docker_1.md"
+            },
+            {
                 "text": "web API設計閱讀筆記(一)",
                 "file": "webAPI_1.md"
             },

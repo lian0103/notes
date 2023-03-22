@@ -6,6 +6,8 @@ tags: web API learning
 
 [[toc]]
 
+<img src="https://i.imgur.com/P5JMd4o.jpg" style="width:300px" />
+
 ## 章節六 建立API模型
 - 可以用表格去列出API的項目，記載的欄位應包含API基礎的資訊，如名稱、說明、存取範圍、輸入參數、輸出結果格式和涉及的資源模組..等，這些基本資訊就是API profile，並不涉及API的風格和實作技術。
 
