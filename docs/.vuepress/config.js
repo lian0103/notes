@@ -15,7 +15,7 @@ console.log(mode);
 export default defineUserConfig({
   base: mode === 'development' ? '/' : './',
   lang: 'zh-tw',
-  title: "Dev Notes",
+  title: "開發筆記",
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     ['meta', { property: 'keywords', content: 'JavaScript, vue, 前端, 網頁開發, 開發人員' }],
@@ -49,7 +49,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     lastUpdated: true,
     tip: 'info',
-    logo: 'images/cat.jpg',
+    logo: 'https://img.shields.io/badge/Dev-Notes-blue?style=flat-square',
     repo: 'https://github.com/lian0103',
     docsRepo: 'https://github.com/lian0103/notes',
     docsDir: '/docs',

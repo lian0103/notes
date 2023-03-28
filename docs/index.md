@@ -1,67 +1,71 @@
 ---
 title: 首頁
 ---
-##  :date: 筆記
+
+## :date: 筆記
+
 <recent-list />
 
-## :package: 專案 
+## :package: 專案
 
-[大樹後台元件](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)     
-Vue3後台元件庫。
+[Vue UI Components](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)  
+使用Vue3搭建後台元件庫。
 
-## :construction_worker: 實作 
+## :construction_worker: 實作
 
-[筆記](https://nuxt3-notes.vercel.app/)  
-Nuxt3 app，彙整第三方服務使用、實作流程和學習紀錄等筆記
+[Nuxt3 app](https://nuxt3-notes.vercel.app/)  
+彙整第三方服務使用、實作流程和學習紀錄等筆記
 
-[線上預約](https://book-service.firebaseapp.com/#/)  
+[Firebase app](https://book-service.firebaseapp.com/#/)  
 後端使用 Firebase 服務，實現資料串接、權限管控，並透過 Firebase cli 佈署。
 
-[部落格](https://hexo-blog-2de2a.web.app/)  
-使用 Hexo 開源庫，撰寫技術心得。
+[Quasar app](https://account-app-f70c0.web.app/#/)  
+Vue3 搭配 Quasar。
 
-[花費紀錄](https://account-app-f70c0.web.app/#/)  
-Vue3搭配Quasar。
+## :bar_chart: 技能範圍
 
-## :tada: 累積 
+**前端**
 
-- FrontEnd
-<p align="left" class='left'>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" /> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" />
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" /> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" />
-    <img src="https://i.imgur.com/KCqn69X.png" alt="vuejs" />
+<p>
+<img alt="html5" style="margin-right:5px" src="https://img.shields.io/badge/HTML5-medium-orange?style=flat-square&logo=html5" /> 
+<img alt="css3" style="margin-right:5px" src="https://img.shields.io/badge/CSS3-medium-orange?style=flat-square&logo=css3" />
+<img alt="javascript" style="margin-right:5px" src="https://img.shields.io/badge/Javascript-medium-orange?style=flat-square&logo=javascript" />
+<img alt="vue" style="margin-right:5px" src="https://img.shields.io/badge/Vue-medium-orange?style=flat-square&logo=vuedotjs" />
+<img alt="tailwindcss" style="margin-right:5px" src="https://img.shields.io/badge/Tailwindcss-medium-orange?style=flat-square&logo=tailwindcss" />
+<img alt="quasar" style="margin-right:5px" src="https://img.shields.io/badge/Quasar-juniur-green?style=flat-square&logo=quasar" /> 
+<img alt="Nuxtjs" style="margin-right:5px" src="https://img.shields.io/badge/Nuxtjs-juniur-green?style=flat-square&logo=nuxtdotjs" /> 
+<img alt="react" style="margin-right:5px" src="https://img.shields.io/badge/React-juniur-green?style=flat-square&logo=react" /> 
+<img alt="sass" style="margin-right:5px" src="https://img.shields.io/badge/Sass-juniur-green?style=flat-square&logo=sass" /> 
 </p>
 
-- BackEnd
-<p align="left" class='left'>
-    <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxtjs" /> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" />    
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" />
+**後端**
+
+<p>
+<img alt="nodejs" style="margin-right:5px" src="https://img.shields.io/badge/NodeJS-medium-orange?style=flat-square&logo=nodedotjs" />  
+<img alt="express" style="margin-right:5px" src="https://img.shields.io/badge/Express-medium-orange?style=flat-square&logo=express" />
+<img alt="mongodb" style="margin-right:5px" src="https://img.shields.io/badge/MongoDB-juniur-green?style=flat-square&logo=mongodb" />
+<img alt="mysql" style="margin-right:5px" src="https://img.shields.io/badge/MySQL-juniur-green?style=flat-square&logo=mysql" />
 </p>
 
-- Tools
-<p align="left" class='left'> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" />
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" />
-    <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" />
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" /> 
-    <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="git" /> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" />
+**開發工具**
+
+<p>
+<img alt="docker" style="margin-right:5px" src="https://img.shields.io/badge/Docker-juniur-green?style=flat-square&logo=docker" />
+<img alt="postman" style="margin-right:5px" src="https://img.shields.io/badge/Postman-juniur-green?style=flat-square&logo=postman" />
+<img alt="git" style="margin-right:5px" src="https://img.shields.io/badge/Git-juniur-green?style=flat-square&logo=git" />
+<img alt="webpack" style="margin-right:5px" src="https://img.shields.io/badge/Webpack-juniur-green?style=flat-square&logo=webpack" />
+<img alt="vite" style="margin-right:5px" src="https://img.shields.io/badge/Vite-medium-orange?style=flat-square&logo=vite" />
+<img alt="firebase" style="margin-right:5px" src="https://img.shields.io/badge/Firebase-medium-orange?style=flat-square&logo=firebase" />
 </p>
 
+## :information_source: 關於我
 
-## :new: 關於我 
+<Flexbox justify='flex-start'>
+<img src="./.vuepress/public/images/cat.jpg" style="width:220px" />
+<img src="./.vuepress/public/images/cat2.jpg" style="width:220px" />
+<img src="./.vuepress/public/images/cat3.jpg" style="width:220px" />
+</Flexbox>
 
-![](./.vuepress/public/images/cat.jpg)
-
-:boy: Jason Lian     
-:house_with_garden: 新北/桃園 , Taiwan     
-:mailbox: k1319900103@gmail.com    
-
+:boy: Jason Lian  
+:house_with_garden: New Taipei City / Taoyuan , Taiwan  
+:mailbox: k1319900103@gmail.com
