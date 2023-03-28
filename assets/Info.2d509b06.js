@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as n,f as r,g as _,b as a}from"./app.30d3d712.js";const c="/./assets/worker.db6bfb28.svg";const f={},l=a("img",{src:c,alt:""},null,-1);function i(s,e){return t(),n("div",{class:"content-info",onClick:e[0]||(e[0]=_(()=>{},["stop"]))},[l,r(s.$slots,"default")])}const u=o(f,[["render",i],["__file","Info.vue"]]);export{u as default};
