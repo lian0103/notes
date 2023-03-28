@@ -66,6 +66,12 @@ Vue3 搭配 Quasar。
 <img src="./.vuepress/public/images/cat3.jpg" style="width:220px" />
 </Flexbox>
 
-:boy: Jason Lian  
-:house_with_garden: New Taipei City / Taoyuan , Taiwan  
-:mailbox: k1319900103@gmail.com
+<p>
+<img alt="html5" style="width:685px" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lian0103&theme=vue" />
+</p>
+
+<p>    
+<img alt="html5" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=lian0103&theme=vue" />
+    
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lian0103&theme=vue&utcOffset=8" />    
+</p>
