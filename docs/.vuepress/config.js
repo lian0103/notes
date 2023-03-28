@@ -15,7 +15,7 @@ console.log(mode);
 export default defineUserConfig({
   base: mode === 'development' ? '/' : './',
   lang: 'zh-tw',
-  title: "Web Dev Notes",
+  title: "Dev Notes",
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     ['meta', { property: 'keywords', content: 'JavaScript, vue, 前端, 網頁開發, 開發人員' }],
@@ -43,9 +43,6 @@ export default defineUserConfig({
       }),
       registerComponentsPlugin({
         componentsDir: path.resolve(__dirname, './components'),
-      }),
-      docsearchPlugin({
-        
       })
     ],
   ],
