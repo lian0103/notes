@@ -1,7 +1,7 @@
 ---
 title: 首頁
 ---
-
+<Docsearch />
 ## :date: 筆記
 
 <recent-list />
