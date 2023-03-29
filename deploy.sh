@@ -1,3 +1,4 @@
 set -e
 npm run docs:build
-npm run docs:deploy
+node plugins/genSitemapXML.js  
+# npm run docs:deploy
