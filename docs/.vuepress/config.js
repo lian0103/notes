@@ -4,7 +4,6 @@ import { seoPlugin } from 'vuepress-plugin-seo2';
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { getDirname, path } from '@vuepress/utils';
-import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 
 const __dirname = getDirname(import.meta.url);
 
@@ -48,12 +47,7 @@ export default defineUserConfig({
             }),
             registerComponentsPlugin({
                 componentsDir: path.resolve(__dirname, './components'),
-            }),
-            docsearchPlugin({
-                apiKey: 'afd0c697502993ff7dc830428cb1169e',
-                appId: 'D2C64YEBJG',
-                indexName: 'jason-lian'
-            }),
+            })
         ],
     ],
     theme: defaultTheme({
