@@ -50,8 +50,8 @@ export default defineUserConfig({
                 componentsDir: path.resolve(__dirname, './components'),
             }),
             docsearchPlugin({
-                appId: 'D2C64YEBJG',
-                apiKey: 'afd0c697502993ff7dc830428cb1169e',
+                appId: "D2C64YEBJG",
+                apiKey: "83664c5e00eba2b2cc32a96195de052e",
                 indexName: 'jason-lian',
             }),
         ],
