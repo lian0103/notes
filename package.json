@@ -4,7 +4,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:deploy": "gh-pages -d docs/.vuepress/dist",
-    "deploy":"sh deploy.sh"
+    "deploy": "sh deploy.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.51",
@@ -15,6 +15,8 @@
     "xmlbuilder": "^15.1.1"
   },
   "dependencies": {
+    "@docsearch/js": "^3.3.3",
+    "@vuepress/client": "^2.0.0-beta.51",
     "vuepress-plugin-seo2": "^2.0.0-beta.99"
   }
 }
