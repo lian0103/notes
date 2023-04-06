@@ -4,6 +4,9 @@
     <div>
         <ul>
             <li>
+                <a href="./Stacks/vuepressAndAlgolia.html">使用Vuepress2外掛搜尋功能 - 2023-04-06</a>
+            </li>
+            <li>
                 <a href="./Books/docker_2.html">Docker使用知識與方法 閱讀筆記(二) - 2023-03-24</a>
             </li>
             <li>

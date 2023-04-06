@@ -62,6 +62,10 @@
         "folder": "Stacks",
         "notes": [
             {
+                "text": "使用Vuepress2外掛搜尋功能",
+                "file": "vuepressAndAlgolia.md"
+            },
+            {
                 "text": "使用google cloud run",
                 "file": "googleCloudRun.md"
             },
