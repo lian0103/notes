@@ -2,7 +2,7 @@
 tags: career
 ---
 
-<h1 class='level-top-text font-size-26'>👨‍🏭 轉職前端陪練(收費)</h1>
+<h1 class='level-top-text font-size-26'>👨‍🏭 轉職前端陪練 (收費)</h1>
 
 ## 適合對象
 a.準備轉職中的同學     
