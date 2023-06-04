@@ -18,7 +18,7 @@ export default defineUserConfig({
     head: [
         ['link', { rel: 'icon', href: '/images/favicon.ico' }],
         ['meta', { property: 'keywords', content: 'JavaScript, vue, 前端, 網頁開發, 開發人員' }],
-        ['meta', { property: 'author', content: 'Jason Lien, 連宗聖' }],
+        ['meta', { property: 'author', content: 'Jason Lien, 連宗聖' }],   
     ],
     plugins: [
         [

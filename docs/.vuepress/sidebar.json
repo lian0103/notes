@@ -66,6 +66,10 @@
                 "file": "career.md"
             },
             {
+                "text": "👨‍🏭 Web前端開發 (收費)",
+                "file": "career-job.md"
+            },
+            {
                 "text": "使用Vuepress2外掛搜尋功能",
                 "file": "vuepressAndAlgolia.md"
             },
