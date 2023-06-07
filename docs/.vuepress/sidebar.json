@@ -1,201 +1,202 @@
 [
-    {
-        "folder": "ASP.NET",
-        "notes": [
-            {
-                "text": "環境建立",
-                "file": "ASP.NET-start.md"
-            },
-            {
-                "text": "套件管理與MVC-Controller",
-                "file": "ASP.NET-start2.md"
-            }
-        ]
-    },
-    {
-        "folder": "Books",
-        "notes": [
-            {
-                "text":"Docker閱讀筆記(一)",
-                "file":"docker_1.md"
-            },
-            {
-                "text":"Docker閱讀筆記(二)",
-                "file":"docker_2.md"
-            },
-            {
-                "text": "web API設計閱讀筆記(一)",
-                "file": "webAPI_1.md"
-            },
-            {
-                "text": "web API設計閱讀筆記(二)",
-                "file": "webAPI_2.md"
-            }
-        ]
-    },
-    {
-        "folder": "Nodejs",
-        "notes": [
-            {
-                "text": "MongoDB 儲存職缺資訊",
-                "file": "mongoDBcompass.md"
-            },
-            {
-                "text": "MongoDB 本地與雲端",
-                "file": "mongoDB.md"
-            },
-            {
-                "text": "MongoDB Shell指令",
-                "file": "mongoDBShell.md"
-            },
-            {
-                "text": "Web Crawler & Store",
-                "file": "crawler.md"
-            },
-            {
-                "text": "NodeJS架設Web服務",
-                "file": "nodeExpressApp.md"
-            }
-        ]
-    },
-    {
-        "folder": "Stacks",
-        "notes": [
-            {
-                "text": "👨‍🏭 轉職前端陪練 (收費)",
-                "file": "career.md"
-            },
-            {
-                "text": "👨‍🏭 Web前端開發 (收費)",
-                "file": "career-job.md"
-            },
-            {
-                "text": "使用Vuepress2外掛搜尋功能",
-                "file": "vuepressAndAlgolia.md"
-            },
-            {
-                "text": "使用google cloud run",
-                "file": "googleCloudRun.md"
-            },
-            {
-                "text": "使用google domain",
-                "file": "googleDomain.md"
-            },
-            {
-                "text": "PDF簽名功能",
-                "file": "pdfjs-distAndjspdf.md"
-            },
-            {
-                "text": "瞭解webpack、Vite的發展脈絡",
-                "file": "webpackAndVite.md"
-            },
-            {
-                "text": "D3js繪製台灣行政區地圖",
-                "file": "d3GeoMap.md"
-            },
-            {
-                "text": "D3js繪製甘特圖",
-                "file": "d3WithGantte.md"
-            },
-            {
-                "text": "FirebaseAPI使用",
-                "file": "firebaseApp.md"
-            },
-            {
-                "text": "Heroku 使用",
-                "file": "heroku.md"
-            },
-            {
-                "text": "Docker 學習",
-                "file": "learnDockerfile.md"
-            },
-            {
-                "text": "LineBot API串接",
-                "file": "lineBot.md"
-            },
-            {
-                "text": "html2canvas截圖",
-                "file": "screenShot.md"
-            },
-            {
-                "text": "SocketIO 使用",
-                "file": "websocketAndSocketIO.md"
-            }
-        ]
-    },
-    {
-        "folder": "Vue",
-        "notes": [
-            {
-                "text": "建立前端腳手架",
-                "file": "npx.md"
-            },
-            {
-                "text": "Vue3 And Vite",
-                "file": "Vue3AndVite.md"
-            },
-            {
-                "text": "Vue3 slot",
-                "file": "card.md"
-            },
-            {
-                "text": "Vue3 & Firebase App",
-                "file": "accountApp.md"
-            },
-            {
-                "text": "Vue3 & Quasar App",
-                "file": "quasarApp.md"
-            },
-            {
-                "text": "Vue2 And Vue-cli",
-                "file": "vue2AndVue-cli.md"
-            },
-            {
-                "text": "Nuxt3 功能",
-                "file": "nuxtFeat.md"
-            },
-            {
-                "text": "Nuxt3 App建置",
-                "file": "nuxtApp.md"
-            },
-            {
-                "text": "Nuxt3 App顏色模式",
-                "file": "colorMode.md"
-            }
-        ]
-    },
-    {
-        "folder": "Vue3UI",
-        "notes": [
-            {
-                "text": "ElementPlus樣式複寫",
-                "file": "designRules.md"
-            },
-            {
-                "text": "GT UI使用",
-                "file": "library.md"
-            },
-            {
-                "text": "Vite打包之情境",
-                "file": "buildByVite.md"
-            },
-            {
-                "text": "Vitest元件測試",
-                "file": "Vitest.md"
-            },
-            {
-                "text": "Tree元件遞迴實作",
-                "file": "tree.md"
-            },
-            {
-                "text": "生成展示頁面的工具",
-                "file": "genDoc.md"
-            },
-            {
-                "text": "頁面文檔建構過程",
-                "file": "genDoc2.md"
-            }
-        ]
-    }
-
+  {
+    "folder": "ASP.NET",
+    "notes": [
+      {
+        "text": "環境建立",
+        "file": "ASP.NET-start.md"
+      },
+      {
+        "text": "套件管理與MVC-Controller",
+        "file": "ASP.NET-start2.md"
+      }
+    ]
+  },
+  {
+    "folder": "Books",
+    "notes": [
+      {
+        "text": "Docker閱讀筆記(一)",
+        "file": "docker_1.md"
+      },
+      {
+        "text": "Docker閱讀筆記(二)",
+        "file": "docker_2.md"
+      },
+      {
+        "text": "web API設計閱讀筆記(一)",
+        "file": "webAPI_1.md"
+      },
+      {
+        "text": "web API設計閱讀筆記(二)",
+        "file": "webAPI_2.md"
+      }
+    ]
+  },
+  {
+    "folder": "Nodejs",
+    "notes": [
+      {
+        "text": "MongoDB 儲存職缺資訊",
+        "file": "mongoDBcompass.md"
+      },
+      {
+        "text": "MongoDB 本地與雲端",
+        "file": "mongoDB.md"
+      },
+      {
+        "text": "MongoDB Shell指令",
+        "file": "mongoDBShell.md"
+      },
+      {
+        "text": "Web Crawler & Store",
+        "file": "crawler.md"
+      },
+      {
+        "text": "NodeJS架設Web服務",
+        "file": "nodeExpressApp.md"
+      }
+    ]
+  },
+  {
+    "folder": "Stacks",
+    "notes": [
+      {
+        "text": "👨‍🏭 轉職前端陪練 (收費)",
+        "file": "career.md",
+        "priority": "1.0"
+      },
+      {
+        "text": "👨‍🏭 Web前端開發 (收費)",
+        "file": "career-job.md",
+        "priority": "1.0"
+      },
+      {
+        "text": "使用Vuepress2外掛搜尋功能",
+        "file": "vuepressAndAlgolia.md"
+      },
+      {
+        "text": "使用google cloud run",
+        "file": "googleCloudRun.md"
+      },
+      {
+        "text": "使用google domain",
+        "file": "googleDomain.md"
+      },
+      {
+        "text": "PDF簽名功能",
+        "file": "pdfjs-distAndjspdf.md"
+      },
+      {
+        "text": "瞭解webpack、Vite的發展脈絡",
+        "file": "webpackAndVite.md"
+      },
+      {
+        "text": "D3js繪製台灣行政區地圖",
+        "file": "d3GeoMap.md"
+      },
+      {
+        "text": "D3js繪製甘特圖",
+        "file": "d3WithGantte.md"
+      },
+      {
+        "text": "FirebaseAPI使用",
+        "file": "firebaseApp.md"
+      },
+      {
+        "text": "Heroku 使用",
+        "file": "heroku.md"
+      },
+      {
+        "text": "Docker 學習",
+        "file": "learnDockerfile.md"
+      },
+      {
+        "text": "LineBot API串接",
+        "file": "lineBot.md"
+      },
+      {
+        "text": "html2canvas截圖",
+        "file": "screenShot.md"
+      },
+      {
+        "text": "SocketIO 使用",
+        "file": "websocketAndSocketIO.md"
+      }
+    ]
+  },
+  {
+    "folder": "Vue",
+    "notes": [
+      {
+        "text": "建立前端腳手架",
+        "file": "npx.md"
+      },
+      {
+        "text": "Vue3 And Vite",
+        "file": "Vue3AndVite.md"
+      },
+      {
+        "text": "Vue3 slot",
+        "file": "card.md"
+      },
+      {
+        "text": "Vue3 & Firebase App",
+        "file": "accountApp.md"
+      },
+      {
+        "text": "Vue3 & Quasar App",
+        "file": "quasarApp.md"
+      },
+      {
+        "text": "Vue2 And Vue-cli",
+        "file": "vue2AndVue-cli.md"
+      },
+      {
+        "text": "Nuxt3 功能",
+        "file": "nuxtFeat.md"
+      },
+      {
+        "text": "Nuxt3 App建置",
+        "file": "nuxtApp.md"
+      },
+      {
+        "text": "Nuxt3 App顏色模式",
+        "file": "colorMode.md"
+      }
+    ]
+  },
+  {
+    "folder": "Vue3UI",
+    "notes": [
+      {
+        "text": "ElementPlus樣式複寫",
+        "file": "designRules.md"
+      },
+      {
+        "text": "GT UI使用",
+        "file": "library.md"
+      },
+      {
+        "text": "Vite打包之情境",
+        "file": "buildByVite.md"
+      },
+      {
+        "text": "Vitest元件測試",
+        "file": "Vitest.md"
+      },
+      {
+        "text": "Tree元件遞迴實作",
+        "file": "tree.md"
+      },
+      {
+        "text": "生成展示頁面的工具",
+        "file": "genDoc.md"
+      },
+      {
+        "text": "頁面文檔建構過程",
+        "file": "genDoc2.md"
+      }
+    ]
+  }
 ]
