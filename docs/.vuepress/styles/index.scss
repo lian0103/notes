@@ -1,18 +1,18 @@
-@import url('https://cdn.jsdelivr.net/npm/@docsearch/css@3');
+@import url("https://cdn.jsdelivr.net/npm/@docsearch/css@3");
 
 html.dark {
   --c-text: #fff;
 }
 
-.flexBox{
+.flexBox {
   display: flex;
 }
 
-img.mainImg{
+img.mainImg {
   max-width: 250px;
 }
 
-img.imgInMd{
+img.imgInMd {
   max-width: 250px;
 }
 
@@ -28,7 +28,7 @@ p.left {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  img{
+  img {
     width: 35px;
   }
 }
@@ -53,11 +53,11 @@ p.left {
 }
 
 @media screen and (max-width: 600px) {
-  img.mainImg{
+  img.mainImg {
     max-width: 100%;
   }
 
-  img.imgInMd{
+  img.imgInMd {
     max-width: 90%;
   }
 
@@ -66,7 +66,7 @@ p.left {
   }
 
   p.left {
-    img{
+    img {
       width: 30px;
     }
   }
@@ -76,27 +76,50 @@ p.left {
   }
 }
 
-.level-top{
+.level-top {
   padding: 4px 6px;
   background: #db2777;
   color: #fff;
   margin-right: 20px;
 }
 
-.level-top-text{
+.level-top-text {
   font-size: 20px;
   line-height: 27px;
   color: #db2777;
 }
 
-.font-size-26{
+.font-size-26 {
   font-size: 26px;
 }
 
-.d-none{
+.d-none {
   display: none;
 }
 
-.my-2{
+.my-2 {
   margin-bottom: 10px;
+}
+
+.rainbow-text {
+  background: #2ea4cf;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #2ea4cf 20%,
+    #cf2b88 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h2-rainbow-text h2 {
+  letter-spacing: 1px;
+  background: #1bc3cf;
+  background: radial-gradient(
+    circle farthest-side at left center,
+    #1bc3cf 12%,
+    #4d6bcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -1,8 +1,14 @@
 ---
 title: 首頁
 ---
+
 ## ⚡ 服務
+
 <Top/>
+
+## 🌏 旅遊
+
+<recent-list2 />
 
 ## :date: 筆記
 
@@ -11,7 +17,7 @@ title: 首頁
 ## :package: 專案
 
 [Vue UI Components](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)  
-使用Vue3搭建後台元件庫。
+使用 Vue3 搭建後台元件庫。
 
 ## :construction_worker: 實作
 
