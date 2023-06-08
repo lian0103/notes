@@ -1,1 +1,0 @@
-import{_ as t,o,c,b as e}from"./app.bde56f88.js";const l={},s=e("ul",null,[e("li",null,[e("a",{href:"./_talks/talkGoogle.html"},"\u4F7F\u7528Google\u958B\u767C\u8005\u5168\u5BB6\u6876 - 2023-06-08")])],-1),n=[s];function _(a,r){return o(),c("div",null,n)}const f=t(l,[["render",_],["__file","RecentList3.vue"]]);export{f as default};
