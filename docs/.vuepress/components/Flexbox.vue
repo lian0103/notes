@@ -11,7 +11,7 @@ const props = defineProps({
   },
   wrap: {
     type: String,
-    default: "no-wrap",
+    default: "wrap",
   },
   gap: {
     type: String,

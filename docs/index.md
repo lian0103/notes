@@ -6,13 +6,17 @@ title: 首頁
 
 <Top/>
 
+## :date: 筆記
+
+<recent-list />
+
 ## 🌏 旅遊
 
 <recent-list2 />
 
-## :date: 筆記
+## 💬 雜談
 
-<recent-list />
+<recent-list3 />
 
 ## :package: 專案
 
@@ -68,7 +72,7 @@ Vue3 搭配 Quasar。
 
 ## :information_source: 關於我
 
-<Flexbox justify='flex-start'>
+<Flexbox justify='flex-start' gap='15px'>
 <img src="./.vuepress/public/images/cat.jpg" style="width:220px" />
 <img src="./.vuepress/public/images/cat2.jpg" style="width:220px" />
 <img src="./.vuepress/public/images/cat3.jpg" style="width:220px" />

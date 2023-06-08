@@ -1,23 +1,19 @@
 [
   {
-    "folder": "_旅遊",
+    "folder": "_talks",
     "notes": [
       {
-        "text": "桃園景點",
-        "file": "taoyuan.md"
+        "text": "使用Google開發者全家桶",
+        "file": "talkGoogle.md"
       }
     ]
   },
   {
-    "folder": "ASP.NET",
+    "folder": "_travel",
     "notes": [
       {
-        "text": "環境建立",
-        "file": "ASP.NET-start.md"
-      },
-      {
-        "text": "套件管理與MVC-Controller",
-        "file": "ASP.NET-start2.md"
+        "text": "桃園景點",
+        "file": "taoyuan.md"
       }
     ]
   },

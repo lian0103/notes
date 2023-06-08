@@ -14,9 +14,9 @@ tags: taoyuan travel
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![大溪玫瑰左岸莊園](/images/taoyuan_3.jpg)
+![大溪玫瑰左岸莊園](./imgs/taoyuan_3.jpg)
 
-![大溪玫瑰左岸莊園](/images/taoyuan_1.jpg)
+![大溪玫瑰左岸莊園](./imgs/taoyuan_1.jpg)
 
 </Flexbox>
 
@@ -27,17 +27,17 @@ tags: taoyuan travel
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![大鶯綠野景觀自行車道](/images/taoyuan_5.jpg)
+![大鶯綠野景觀自行車道](./imgs/taoyuan_5.jpg)
 
-![大鶯綠野景觀自行車道](/images/taoyuan_4.jpg)
+![大鶯綠野景觀自行車道](./imgs/taoyuan_4.jpg)
 
 </Flexbox>
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![大鶯綠野景觀自行車道](/images/taoyuan_6.jpg)
+![大鶯綠野景觀自行車道](./imgs/taoyuan_6.jpg)
 
-![大鶯綠野景觀自行車道](/images/taoyuan_14.jpg)
+![大鶯綠野景觀自行車道](./imgs/taoyuan_14.jpg)
 
 </Flexbox>
 
@@ -48,17 +48,17 @@ tags: taoyuan travel
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![大溪老街](/images/taoyuan_7.jpg)
+![大溪老街](./imgs/taoyuan_7.jpg)
 
-![大溪老街](/images/taoyuan_8.jpg)
+![大溪老街](./imgs/taoyuan_8.jpg)
 
 </Flexbox>
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![大溪老街](/images/taoyuan_15.jpg)
+![大溪老街](./imgs/taoyuan_15.jpg)
 
-![大溪老街](/images/taoyuan_2.jpg)
+![大溪老街](./imgs/taoyuan_2.jpg)
 
 </Flexbox>
 
@@ -69,15 +69,15 @@ tags: taoyuan travel
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![富田花園農場](/images/taoyuan_11.jpg)
+![富田花園農場](./imgs/taoyuan_11.jpg)
 
-![富田花園農場](/images/taoyuan_13.jpg)
+![富田花園農場](./imgs/taoyuan_13.jpg)
 
 </Flexbox>
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![富田花園農場](/images/taoyuan_10.jpg)
+![富田花園農場](./imgs/taoyuan_10.jpg)
 
 </Flexbox>
 
@@ -87,9 +87,9 @@ tags: taoyuan travel
 
 <Flexbox wrap='no-wrap' gap='10px'>
 
-![百吉步道](/images/taoyuan_9.jpg)
+![百吉步道](./imgs/taoyuan_9.jpg)
 
-![百吉步道](/images/taoyuan_17.jpg)
+![百吉步道](./imgs/taoyuan_17.jpg)
 
 </Flexbox>
 

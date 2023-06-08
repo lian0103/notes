@@ -123,3 +123,22 @@ p.left {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+.talkGoogleWrapper{
+  img{
+    display: block;
+    max-width: 260px;
+  }
+
+
+
+  @media screen and (max-width: 1080px) {
+    .flexbox{
+      img{
+        max-width: 140px;
+        display: block;
+      }
+    }
+  }
+}
