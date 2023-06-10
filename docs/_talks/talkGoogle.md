@@ -2,7 +2,7 @@
 tags: talks
 ---
 
-<div class='talkGoogleWrapper'>
+<div class='articleWrapper'>
 
 <div class='d-none'>
 
@@ -12,7 +12,7 @@ tags: talks
 
 ![](./imgs/GoogleDevIcon.svg)
 
-<Flexbox gap='20px'>
+<Flexbox wrap='no-wrap' gap='20px'>
 
 ![Google](./imgs/GoogleDomain.png)
 

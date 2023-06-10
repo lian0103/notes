@@ -18,6 +18,10 @@ title: 首頁
 
 <recent-list3 />
 
+## ✨ 活動
+
+<recent-list4 />
+
 ## :package: 專案
 
 [Vue UI Components](https://lian0103.github.io/vue-ui/#/gt/a-i/avatar)  

@@ -45,7 +45,4 @@ const styleComputed = computed(() => {
   margin: 0;
 }
 
-.flexbox img {
-  max-height: 30vh;
-}
 </style>
