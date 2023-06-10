@@ -102,6 +102,8 @@ tags: event
 
 ![](./imgs/wedding_9.jpg)
 
+![](./imgs/wedding_12.jpg)
+
 </Flexbox>
 
 晚上8點，台中行一日快閃結束，收穫一堆禮物、喜餅和捧花紅包!!最後以豆花入境結束啦~
