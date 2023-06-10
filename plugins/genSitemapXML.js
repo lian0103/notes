@@ -15,7 +15,6 @@ const jsonData = JSON.parse(fs.readFileSync(jsonfilePath));
 // 創建 sitemap.xml 檔案
 const root = xmlbuilder.create("urlset", { version: "1.0", encoding: "UTF-8" });
 root.att("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9");
-root.att("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance");
 
 // 將 JSON 檔案中的內容加入 sitemap.xml
 
@@ -28,7 +27,7 @@ jsonData.forEach((data) => {
       `${domain}/${data.folder}/${item.file.replace(".md", ".html")}`
     );
     url.ele("lastmod", {}, new Date().toISOString());
-    url.ele("priority", {}, item.priority || "0,8");
+    // url.ele("priority", {}, item.priority || "0.8");
   });
 });
 
