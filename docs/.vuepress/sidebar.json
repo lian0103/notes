@@ -1,6 +1,6 @@
 [
   {
-    "folder": "_talks",
+    "folder": "Talks",
     "notes": [
       {
         "text": "使用Google開發者全家桶",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "folder": "_travel",
+    "folder": "Travel",
     "notes": [
       {
         "text": "桃園景點",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "folder": "_event",
+    "folder": "Event",
     "notes": [
       {
         "text": "薛哥&柯安 @台中林酒店",
@@ -77,13 +77,11 @@
     "notes": [
       {
         "text": "👨‍🏭 轉職前端陪練/家教 (收費)",
-        "file": "career.md",
-        "priority": "1.0"
+        "file": "career.md"
       },
       {
         "text": "👨‍🏭 Web前端開發 (收費)",
-        "file": "career-job.md",
-        "priority": "1.0"
+        "file": "career-job.md"
       },
       {
         "text": "使用Vuepress2外掛搜尋功能",
@@ -136,36 +134,53 @@
       {
         "text": "SocketIO 使用",
         "file": "websocketAndSocketIO.md"
+      },
+      {
+        "text": "Vite打包之情境",
+        "file": "buildByVite.md"
+      },
+      {
+        "text": "Vitest元件測試",
+        "file": "Vitest.md"
       }
     ]
   },
   {
-    "folder": "Vue",
+    "folder": "Vuejs",
     "notes": [
       {
-        "text": "建立前端腳手架",
+        "text": "Npx vue templates",
         "file": "npx.md"
       },
       {
         "text": "Vue3 And Vite",
-        "file": "Vue3AndVite.md"
+        "file": "vue3AndVite.md"
+      },
+      {
+        "text": "Vue2 And Vue-cli",
+        "file": "vue2AndVue-cli.md"
       },
       {
         "text": "Vue3 slot",
         "file": "card.md"
       },
       {
-        "text": "Vue3 & Firebase App",
-        "file": "accountApp.md"
+        "text": "Tree元件遞迴實作",
+        "file": "tree.md"
       },
       {
-        "text": "Vue3 & Quasar App",
-        "file": "quasarApp.md"
+        "text": "GT-UI文檔建構1",
+        "file": "genDoc.md"
       },
       {
-        "text": "Vue2 And Vue-cli",
-        "file": "vue2AndVue-cli.md"
-      },
+        "text": "GT-UI文檔建構2",
+        "file": "genDoc2.md"
+      }
+    ]
+  },
+  {
+    "folder": "Vuejs-library",
+    "notes": [
       {
         "text": "Nuxt3 功能",
         "file": "nuxtFeat.md"
@@ -177,39 +192,18 @@
       {
         "text": "Nuxt3 App顏色模式",
         "file": "colorMode.md"
-      }
-    ]
-  },
-  {
-    "folder": "Vue3UI",
-    "notes": [
+      },
+      {
+        "text": "Vue3 & Firebase App",
+        "file": "accountApp.md"
+      },
+      {
+        "text": "Vue3 & Quasar App",
+        "file": "quasarApp.md"
+      },
       {
         "text": "ElementPlus樣式複寫",
         "file": "designRules.md"
-      },
-      {
-        "text": "GT UI使用",
-        "file": "library.md"
-      },
-      {
-        "text": "Vite打包之情境",
-        "file": "buildByVite.md"
-      },
-      {
-        "text": "Vitest元件測試",
-        "file": "Vitest.md"
-      },
-      {
-        "text": "Tree元件遞迴實作",
-        "file": "tree.md"
-      },
-      {
-        "text": "生成展示頁面的工具",
-        "file": "genDoc.md"
-      },
-      {
-        "text": "頁面文檔建構過程",
-        "file": "genDoc2.md"
       }
     ]
   }
