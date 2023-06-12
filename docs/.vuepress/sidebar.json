@@ -84,6 +84,10 @@
         "file": "career-job.md"
       },
       {
+        "text": "匯出excel&指定儲存路徑",
+        "file": "useFileSystemAccessAPI.md"
+      },
+      {
         "text": "使用Vuepress2外掛搜尋功能",
         "file": "vuepressAndAlgolia.md"
       },
