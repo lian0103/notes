@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as n,b as e}from"./app.428a46f5.js";const o={},s=e("ul",null,[e("li",null,[e("a",{href:"./Travel/taoyuan.html"},"\u6843\u5712\u666F\u9EDE - 2023-06-07")])],-1),a=[s];function l(_,r){return c(),n("div",null,a)}const u=t(o,[["render",l],["__file","RecentList2.vue"]]);export{u as default};
