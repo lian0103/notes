@@ -76,11 +76,7 @@ Vue3 搭配 Quasar。
 
 ## :information_source: 關於我
 
-<Flexbox justify='flex-start' gap='15px'>
-<img src="./.vuepress/public/images/cat.jpg" style="width:220px" />
-<img src="./.vuepress/public/images/cat2.jpg" style="width:220px" />
-<img src="./.vuepress/public/images/cat3.jpg" style="width:220px" />
-</Flexbox>
+<AboutMe />
 
 <p>
 <img alt="html5" style="width:685px" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lian0103&theme=vue" />
