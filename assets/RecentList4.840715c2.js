@@ -1,1 +1,0 @@
-import{_ as t,o as n,c,b as e}from"./app.c6779eef.js";const s={},o=e("ul",null,[e("li",null,[e("a",{href:"./Event/wedding.html"},"\u{1F498} \u859B\u54E5&\u67EF\u5B89 - 2023-06-10")])],-1),_=[o];function l(r,a){return n(),c("div",null,_)}const d=t(s,[["render",l],["__file","RecentList4.vue"]]);export{d as default};
