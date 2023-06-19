@@ -5,6 +5,10 @@
       {
         "text": "使用Google開發者全家桶",
         "file": "talkGoogle.md"
+      },
+      {
+        "text": "前端領域常見的各種 Patterns",
+        "file": "designPattern.md"
       }
     ]
   },
