@@ -26,6 +26,14 @@ export default defineUserConfig({
     ],
     ["meta", { property: "author", content: "Jason Lien, 連宗聖" }],
     [
+      "meta",
+      {
+        property: "description",
+        content:
+          "前端開發 程式開發筆記 web develop vuejs javascript nodejs Jason Lien",
+      },
+    ],
+    [
       "script",
       {
         async: "",
