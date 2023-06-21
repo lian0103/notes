@@ -4,6 +4,11 @@
   <div>
     <ul>
       <li>
+        <a href="./Stacks/chromeExtension.html"
+          >Chrome Extension Manifest V3 - 做一個網頁遮罩 - 2023-06-21</a
+        >
+      </li>
+      <li>
         <a href="./Stacks/useFileSystemAccessAPI.html"
           >匯出excel&指定儲存路徑 - 2023-06-12</a
         >

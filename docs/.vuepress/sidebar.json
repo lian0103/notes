@@ -88,6 +88,10 @@
         "file": "career-job.md"
       },
       {
+        "text": "Chrome Extension Manifest..",
+        "file": "chromeExtension.md"
+      },
+      {
         "text": "匯出excel&指定儲存路徑",
         "file": "useFileSystemAccessAPI.md"
       },
