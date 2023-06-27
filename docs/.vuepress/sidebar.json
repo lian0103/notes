@@ -16,8 +16,12 @@
     "folder": "Travel",
     "notes": [
       {
-        "text": "桃園景點",
+        "text": "桃園景點(一)",
         "file": "taoyuan.md"
+      },
+      {
+        "text": "桃園景點(二)",
+        "file": "taoyuan2.md"
       }
     ]
   },
