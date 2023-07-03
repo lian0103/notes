@@ -9,6 +9,10 @@
       {
         "text": "前端領域常見的各種 Patterns",
         "file": "designPattern.md"
+      },
+      {
+        "text": "Web Components開發 ?",
+        "file": "webComponent.md"
       }
     ]
   },
