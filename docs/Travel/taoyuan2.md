@@ -3,7 +3,10 @@ tags: taoyuan travel
 head:
   - [
       meta,
-      { name: description, content: 桃園景點 桃園旅遊 來來米干 Honeywood Cafe },
+      {
+        name: description,
+        content: 桃園景點 桃園旅遊 來來米干 Honeywood Cafe 尼爾瓦特咖啡 一山咖啡,
+      },
     ]
 ---
 
@@ -36,6 +39,36 @@ head:
 <Flexbox wrap='wrap' gap='10px'>
 
 ![Honeywood Cafe](./imgs/taoyuan2_3.jpg)
+
+</Flexbox>
+
+## 一山咖啡
+
+33642 桃園市復興區三鄰丸山 21 之 5 號  
+很適合去看風景，視野很棒!
+
+<Flexbox wrap='wrap' gap='10px'>
+
+![一山咖啡](./imgs/taoyuan2_7.jpg)
+
+</Flexbox>
+
+<Flexbox wrap='no-wrap' gap='10px'>
+
+![一山咖啡](./imgs/taoyuan2_8.jpg)
+
+</Flexbox>
+
+## 石門水庫 尼爾瓦特咖啡
+
+325 台灣桃園市龍潭區龍源路大平段 690 巷 105 號  
+特色：視野角度可以仰望石門水庫，餐點還可，單價中。有經過可以考慮，非必去~
+
+<Flexbox wrap='no-wrap' gap='10px'>
+
+![尼爾瓦特咖啡](./imgs/taoyuan2_4.jpg)
+
+![尼爾瓦特咖啡](./imgs/taoyuan2_6.jpg)
 
 </Flexbox>
 
