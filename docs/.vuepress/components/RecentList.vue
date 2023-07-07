@@ -4,6 +4,18 @@
   <div>
     <ul>
       <li>
+        <a href="./Python/game.html">Python 猜拳遊戲 - 2023-07-07</a>
+      </li>
+      <li>
+        <a href="./Python/basic3.html">Python 語法基礎(三) - 2023-07-07</a>
+      </li>
+      <li>
+        <a href="./Python/basic2.html">Python 語法基礎(二) - 2023-07-07</a>
+      </li>
+      <li>
+        <a href="./Python/basic.html">Python 語法基礎(一) - 2023-07-07</a>
+      </li>
+      <li>
         <a href="./Stacks/chromeExtension.html"
           >Chrome Extension Manifest V3 - 做一個網頁遮罩 - 2023-06-21</a
         >

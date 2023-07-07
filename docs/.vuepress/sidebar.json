@@ -85,6 +85,27 @@
     ]
   },
   {
+    "folder": "Python",
+    "notes": [
+      {
+        "text": "Python 語法基礎(一)",
+        "file": "basic.md"
+      },
+      {
+        "text": "Python 語法基礎(二)",
+        "file": "basic2.md"
+      },
+      {
+        "text": "Python 語法基礎(三)",
+        "file": "basic3.md"
+      },
+      {
+        "text": "Python 猜拳遊戲",
+        "file": "game.md"
+      }
+    ]
+  },
+  {
     "folder": "Stacks",
     "notes": [
       {
