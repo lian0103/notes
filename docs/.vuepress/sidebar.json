@@ -13,6 +13,10 @@
       {
         "text": "Web Components開發 ?",
         "file": "webComponent.md"
+      },
+      {
+        "text": "前端轉職常見 Q&A",
+        "file": "job.md"
       }
     ]
   },
