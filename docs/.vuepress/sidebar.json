@@ -67,6 +67,10 @@
     "folder": "Nodejs",
     "notes": [
       {
+        "text": "JS原型鏈複習",
+        "file": "prototype.md"
+      },
+      {
         "text": "MongoDB 儲存職缺資訊",
         "file": "mongoDBcompass.md"
       },
