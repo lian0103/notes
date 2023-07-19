@@ -124,23 +124,25 @@ p.left {
   -webkit-text-fill-color: transparent;
 }
 
-
-.articleWrapper{
-  h2{
+.articleWrapper {
+  line-height: 2;
+  .w40 {
+    width: 40%;
+  }
+  h2 {
     margin-bottom: 20px;
   }
-  
-  .flexbox{
-    &.imgMax{
-      img{
+
+  .flexbox {
+    &.imgMax {
+      img {
         display: block;
         max-width: 320px;
       }
       @media screen and (max-width: 1080px) {
-          img{
-            max-width: 100%;
-          }
-        
+        img {
+          max-width: 100%;
+        }
       }
     }
   }
