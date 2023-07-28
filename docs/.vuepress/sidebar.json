@@ -50,6 +50,10 @@
     "folder": "Books",
     "notes": [
       {
+        "text": "JS event loop 複習",
+        "file": "eventLoop.md"
+      },
+      {
         "text": "網頁緩存機制 Web Cache",
         "file": "webCache.md"
       },
