@@ -50,6 +50,10 @@
     "folder": "Books",
     "notes": [
       {
+        "text": "git操作 複習",
+        "file": "git.md"
+      },
+      {
         "text": "JS event loop 複習",
         "file": "eventLoop.md"
       },
