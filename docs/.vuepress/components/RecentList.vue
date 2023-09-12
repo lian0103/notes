@@ -16,7 +16,7 @@
         <a href="./Books/webCache.html">網頁緩存機制 Web Cache - 2023-07-18</a>
       </li>
       <li>
-        <a href="./NodeJS/prototype.html">JS 原型鏈複習 - 2023-07-14</a>
+        <a href="./Nodejs/prototype.html">JS 原型鏈複習 - 2023-07-14</a>
       </li>
       <li>
         <a href="./Python/game.html">Python 猜拳遊戲 - 2023-07-07</a>
