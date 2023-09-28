@@ -4,6 +4,9 @@
   <div>
     <ul>
       <li>
+        <a href="./Stacks/scoreBar.html">分數滑動選取條 - 2023-09-28</a>
+      </li>
+      <li>
         <a href="./Stacks/calendar.html">30天日曆顯示班表 - 2023-08-31</a>
       </li>
       <li>
