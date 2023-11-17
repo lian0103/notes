@@ -4,6 +4,10 @@
   <div>
     <ul>
       <li>
+        <a href="./Talks/2023Q4.html">2023 Q4 🦉 - 2023-11-17</a>
+      </li>
+
+      <li>
         <a href="./Stacks/scoreBar.html">分數滑動選取條 - 2023-09-28</a>
       </li>
       <li>
@@ -41,6 +45,11 @@
       <li>
         <a href="./Stacks/useFileSystemAccessAPI.html"
           >匯出excel&指定儲存路徑 - 2023-06-12</a
+        >
+      </li>
+      <li>
+        <a href="./Talks/TalkGoogle.html"
+          >使用Google開發者全家桶 - 2023-06-08</a
         >
       </li>
       <li>

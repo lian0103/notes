@@ -14,10 +14,6 @@ title: 首頁
 
 <recent-list2 />
 
-## 💬 雜談
-
-<recent-list3 />
-
 ## ✨ 活動
 
 <recent-list4 />
