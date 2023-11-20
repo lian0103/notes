@@ -4,10 +4,10 @@ tags: career
 
 <div class='d-none'>
 
-# 轉職前端陪練/家教 (收費)
+# 轉職前端輔導服務
 
 </div>
-<h1 class='level-top-text font-size-26'>👨‍🏭 轉職前端陪練/家教 (收費)</h1>
+<h1 class='level-top-text font-size-26'>👨‍🏭 轉職前端輔導服務</h1>
 
 ## 適合對象
 
@@ -38,10 +38,6 @@ e.google firebase 儲存、部署、權限功能串接
 ## 形式
 
 線上 google meeting ，平日 19:30 - 22:00
-
-## 我的背景
-
-臺北大學碩畢，從資策會前端班(Sep/2018 - Mar/2019)培訓後轉職。目前工作經歷 4-5 年，曾任職雲鼎科技、緯創軟體、大樹藥局，現任職於星宇航空。
 
 ---
 
