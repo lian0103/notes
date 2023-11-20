@@ -2,11 +2,12 @@
 title: 首頁
 ---
 
+<div class='index-page'>
 ## ⚡ 服務
 
 <Top/>
 
-## :date: 筆記
+## :date: 開發筆記
 
 <recent-list />
 
@@ -83,3 +84,4 @@ Vue3 搭配 Quasar。
     
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lian0103&theme=vue&utcOffset=8" alt='Jason Lien' />    
 </p>
+</div>
