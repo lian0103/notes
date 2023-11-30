@@ -4,9 +4,13 @@
   <div>
     <ul>
       <li>
+        <a href="./Stacks/leetcode-js.html"
+          >leetcode javascript 練習紀錄 🙉🙉🙉 - 2023-11-30</a
+        >
+      </li>
+      <li>
         <a href="./Talks/2023Q4.html">2023 Q4 🦉 - 2023-11-17</a>
       </li>
-
       <li>
         <a href="./Stacks/scoreBar.html">分數滑動選取條 - 2023-09-28</a>
       </li>

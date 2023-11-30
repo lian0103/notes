@@ -145,6 +145,10 @@
         "file": "career.md"
       },
       {
+        "text": "leetcode js題目",
+        "file": "leetcode-js.md"
+      },
+      {
         "text": "分數滑動選取條",
         "file": "scoreBar.md"
       },
