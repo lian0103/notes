@@ -4,20 +4,23 @@
   <div class="about-me">
     <p>
       背景: <br />
-      1.選戰助理、國會助理 3y (已畢業) <br />
-      2.軟體工程師 4y~ (持續) <br />
+      1.國科會研究助理 1.5y <br />
+      2.選戰助理、國會助理 3y <br />
+      3.軟體工程師 4y ~ now  <br />
       <br />
-      經歷: <br />
+      軟體業主要經歷: <br />
       緯創軟體<br />
       大樹醫藥<br />
       <br />
       現職: 星宇航空 前端工程師 <br />
-      <br />技能程度: <br />
-      1.選舉議題、文宣活動策劃 (outdated)
+      工作比重: 前端開發(vuejs)60%，後端開發(nodejs)20%，DevOpt相關20%
       <br />
-      2.網站建置 (understanding) <br />
-      3.web程式設計與開發 （experienced） <br />
-      4.第三方服務串接 (competent)
+      <br />技能程度: <br />
+      1.網站建置 (understanding) <br />
+      2.web應用程式設計與開發 （experienced） <br />
+      3.第三方應用服務串接 (capable) <br />
+      4.航空運輸業組員需求規劃與分析 (junior)
+      <br />
     </p>
     <img src="../public/images/me2.jpg" alt="" />
   </div>
