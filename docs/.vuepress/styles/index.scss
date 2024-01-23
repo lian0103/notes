@@ -148,9 +148,21 @@ p.left {
   }
 }
 
-.index-page{
+.index-page {
   padding: 20px 0;
-  h2{
+  h2 {
     font-size: 1.3rem !important;
+  }
+}
+
+.imgMax {
+  img {
+    display: block;
+    max-width: 320px;
+  }
+  @media screen and (max-width: 1080px) {
+    img {
+      max-width: 100%;
+    }
   }
 }

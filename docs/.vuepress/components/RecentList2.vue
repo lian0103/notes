@@ -12,6 +12,9 @@
       <li>
         <a href="./Travel/fukuoka.html"> 日本福岡 - 2023-10-25</a>
       </li>
+      <li>
+        <a href="./Travel/kyoto.html"> 日本京都 - 2023-12-08</a>
+      </li>
     </ul>
   </div>
 </template>
