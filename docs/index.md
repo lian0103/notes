@@ -1,5 +1,5 @@
 ---
-title: 首頁
+title: 野草筆記
 ---
 
 <div class='index-page'>
@@ -68,7 +68,7 @@ Vue3 搭配 Quasar。
 <img alt="firebase" style="margin-right:5px" src="https://img.shields.io/badge/Firebase-medium-orange?style=flat-square&logo=firebase" />
 </p>
 
-## :information_source: 關於我
+## :information_source: 基本資料
 
 <AboutMe />
 

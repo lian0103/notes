@@ -79,7 +79,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     lastUpdated: true,
     tip: "info",
-    logo: "https://img.shields.io/badge/notes-🌳%20Jason/高達-28C8C8?labelColor=%23ff",
+    logo: "https://img.shields.io/badge/🌱%20notes-Jason/高達-28C8C8?labelColor=%23ff",
     repo: "https://github.com/lian0103",
     docsRepo: "https://github.com/lian0103/notes",
     docsDir: "/docs",
@@ -88,7 +88,7 @@ export default defineUserConfig({
     contributorsText: "編輯者",
     sidebar: [
       {
-        text: "首頁",
+        text: "關於野草",
         link: "/",
       },
       ...sidebarJSON.map((item) => {
