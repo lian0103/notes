@@ -88,7 +88,7 @@ export default defineUserConfig({
     contributorsText: "編輯者",
     sidebar: [
       {
-        text: "關於野草",
+        text: "關於小草",
         link: "/",
       },
       ...sidebarJSON.map((item) => {

@@ -1,5 +1,5 @@
 ---
-title: 野草筆記
+title: 小草筆記
 ---
 
 <div class='index-page'>
