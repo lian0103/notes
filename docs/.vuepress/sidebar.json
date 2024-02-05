@@ -62,6 +62,10 @@
     "folder": "Books",
     "notes": [
       {
+        "text":"2024 網頁開發的知識重點",
+        "file":"itemsIn2024.md"
+      },
+      {
         "text": "git操作 複習",
         "file": "git.md"
       },
