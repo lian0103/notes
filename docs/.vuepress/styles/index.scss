@@ -149,7 +149,7 @@ p.left {
 }
 
 .index-page {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   h2 {
     font-size: 1.3rem !important;
   }
@@ -164,5 +164,20 @@ p.left {
     img {
       max-width: 100%;
     }
+  }
+}
+
+.list-box{
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.grid-c4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 20px;
+  @media screen and (max-width: 1080px) {
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
   }
 }

@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="list-box">
     <ul>
       <li>
         <a href="./Books/itemsIn2024.html">2024 網頁開發的知識重點 - 2024-02-05</a>

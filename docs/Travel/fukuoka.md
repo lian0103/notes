@@ -14,7 +14,7 @@ head:
 
 ## 抵達福岡空港地鐵啦 XDD
 
-<Flexbox wrap='no-wrap' gap='10px'>
+<Flexbox wrap='no-wrap' gap='10px' class='imgMax my-2'>
 
 ![](./imgs/fukuoka_1.jpg)
 
@@ -23,7 +23,7 @@ head:
 離背包客棧入住時間還久，先去大濠公園呼吸一下新鮮空氣~
 這裡有間湖畔旁的星巴克，裡頭有些也是來觀光的韓國人
 
-<Flexbox wrap='wrap' gap='10px'>
+<Flexbox wrap='no-wrap' gap='10px'>
 
 ![](./imgs/fukuoka_14.jpg)
 
@@ -88,7 +88,7 @@ head:
 
 這裡的街道和建築，都有種乾乾淨淨的感覺
 
-<Flexbox wrap='wrap' gap='10px'>
+<Flexbox wrap='no-wrap' gap='10px' class='imgMax my-2'>
 
 ![](./imgs/fukuoka_3.jpg)
 
@@ -106,7 +106,7 @@ head:
 
 這次來的匆促，還沒有什麼好好規劃，只在市區待了兩天，下次可以把近郊的景點走走!
 
-<Flexbox wrap='wrap' gap='10px'>
+<Flexbox wrap='no-wrap' gap='10px' class='imgMax my-2'>
 
 ![](./imgs/fukuoka_17.jpg)
 

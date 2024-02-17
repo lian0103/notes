@@ -1,5 +1,147 @@
 [
   {
+    "folder": "Stacks",
+    "notes": [
+      {
+        "text": "leetcode js題目",
+        "file": "leetcode-js.md"
+      },
+      {
+        "text": "分數滑動選取條",
+        "file": "scoreBar.md"
+      },
+      {
+        "text": "30天日曆顯示班表",
+        "file": "calendar.md"
+      },
+      {
+        "text": "Chrome Extension Manifest..",
+        "file": "chromeExtension.md"
+      },
+      {
+        "text": "匯出excel&指定儲存路徑",
+        "file": "useFileSystemAccessAPI.md"
+      },
+      {
+        "text": "使用Vuepress2外掛搜尋功能",
+        "file": "vuepressAndAlgolia.md"
+      },
+      {
+        "text": "使用google cloud run",
+        "file": "googleCloudRun.md"
+      },
+      {
+        "text": "使用google domain",
+        "file": "googleDomain.md"
+      },
+      {
+        "text": "PDF簽名功能",
+        "file": "pdfjs-distAndjspdf.md"
+      },
+      {
+        "text": "瞭解webpack、Vite的發展脈絡",
+        "file": "webpackAndVite.md"
+      },
+      {
+        "text": "D3js繪製台灣行政區地圖",
+        "file": "d3GeoMap.md"
+      },
+      {
+        "text": "D3js繪製甘特圖",
+        "file": "d3WithGantte.md"
+      },
+      {
+        "text": "FirebaseAPI使用",
+        "file": "firebaseApp.md"
+      },
+      {
+        "text": "Heroku 使用",
+        "file": "heroku.md"
+      },
+      {
+        "text": "Docker 學習",
+        "file": "learnDockerfile.md"
+      },
+      {
+        "text": "LineBot API串接",
+        "file": "lineBot.md"
+      },
+      {
+        "text": "html2canvas截圖",
+        "file": "screenShot.md"
+      },
+      {
+        "text": "SocketIO 使用",
+        "file": "websocketAndSocketIO.md"
+      },
+      {
+        "text": "Vite打包之情境",
+        "file": "buildByVite.md"
+      },
+      {
+        "text": "Vitest元件測試",
+        "file": "Vitest.md"
+      }
+    ]
+  },
+  {
+    "folder": "Vuejs",
+    "notes": [
+      {
+        "text": "NPX vue templates",
+        "file": "npx.md"
+      },
+      {
+        "text": "Vue3 And Vite",
+        "file": "vue3AndVite.md"
+      },
+      {
+        "text": "Vue2 And Vue-cli",
+        "file": "vue2AndVue-cli.md"
+      },
+      {
+        "text": "Vue3 slot",
+        "file": "card.md"
+      },
+      {
+        "text": "Tree元件遞迴實作",
+        "file": "tree.md"
+      },
+      {
+        "text": "GT-UI文檔建構1",
+        "file": "genDoc.md"
+      },
+      {
+        "text": "GT-UI文檔建構2",
+        "file": "genDoc2.md"
+      },
+      {
+        "text": "Nuxt3 功能",
+        "file": "nuxtFeat.md"
+      },
+      {
+        "text": "Nuxt3 App建置",
+        "file": "nuxtApp.md"
+      },
+      {
+        "text": "Nuxt3 App顏色模式",
+        "file": "colorMode.md"
+      },
+      {
+        "text": "Vue3 & Firebase App",
+        "file": "accountApp.md"
+      },
+      {
+        "text": "Vue3 & Quasar App",
+        "file": "quasarApp.md"
+      },
+      {
+        "text": "ElementPlus樣式複寫",
+        "file": "designRules.md"
+      }
+    ]
+  },
+  {
     "folder": "Talks",
     "notes": [
       {
@@ -42,19 +184,6 @@
       {
         "text": "kyoto 🇯🇵",
         "file": "kyoto.md"
-      }
-    ]
-  },
-  {
-    "folder": "Event",
-    "notes": [
-      {
-        "text": "Honda fit e:hev @中和交車中心",
-        "file": "honda.md"
-      },
-      {
-        "text": "薛哥&柯安 @台中林酒店",
-        "file": "wedding.md"
       }
     ]
   },
@@ -142,157 +271,6 @@
       {
         "text": "Python 猜拳遊戲",
         "file": "game.md"
-      }
-    ]
-  },
-  {
-    "folder": "Stacks",
-    "notes": [
-      {
-        "text": "👨‍🏭 轉職前端輔導服務",
-        "file": "career.md"
-      },
-      {
-        "text": "leetcode js題目",
-        "file": "leetcode-js.md"
-      },
-      {
-        "text": "分數滑動選取條",
-        "file": "scoreBar.md"
-      },
-      {
-        "text": "30天日曆顯示班表",
-        "file": "calendar.md"
-      },
-      {
-        "text": "Chrome Extension Manifest..",
-        "file": "chromeExtension.md"
-      },
-      {
-        "text": "匯出excel&指定儲存路徑",
-        "file": "useFileSystemAccessAPI.md"
-      },
-      {
-        "text": "使用Vuepress2外掛搜尋功能",
-        "file": "vuepressAndAlgolia.md"
-      },
-      {
-        "text": "使用google cloud run",
-        "file": "googleCloudRun.md"
-      },
-      {
-        "text": "使用google domain",
-        "file": "googleDomain.md"
-      },
-      {
-        "text": "PDF簽名功能",
-        "file": "pdfjs-distAndjspdf.md"
-      },
-      {
-        "text": "瞭解webpack、Vite的發展脈絡",
-        "file": "webpackAndVite.md"
-      },
-      {
-        "text": "D3js繪製台灣行政區地圖",
-        "file": "d3GeoMap.md"
-      },
-      {
-        "text": "D3js繪製甘特圖",
-        "file": "d3WithGantte.md"
-      },
-      {
-        "text": "FirebaseAPI使用",
-        "file": "firebaseApp.md"
-      },
-      {
-        "text": "Heroku 使用",
-        "file": "heroku.md"
-      },
-      {
-        "text": "Docker 學習",
-        "file": "learnDockerfile.md"
-      },
-      {
-        "text": "LineBot API串接",
-        "file": "lineBot.md"
-      },
-      {
-        "text": "html2canvas截圖",
-        "file": "screenShot.md"
-      },
-      {
-        "text": "SocketIO 使用",
-        "file": "websocketAndSocketIO.md"
-      },
-      {
-        "text": "Vite打包之情境",
-        "file": "buildByVite.md"
-      },
-      {
-        "text": "Vitest元件測試",
-        "file": "Vitest.md"
-      }
-    ]
-  },
-  {
-    "folder": "Vuejs",
-    "notes": [
-      {
-        "text": "Npx vue templates",
-        "file": "npx.md"
-      },
-      {
-        "text": "Vue3 And Vite",
-        "file": "vue3AndVite.md"
-      },
-      {
-        "text": "Vue2 And Vue-cli",
-        "file": "vue2AndVue-cli.md"
-      },
-      {
-        "text": "Vue3 slot",
-        "file": "card.md"
-      },
-      {
-        "text": "Tree元件遞迴實作",
-        "file": "tree.md"
-      },
-      {
-        "text": "GT-UI文檔建構1",
-        "file": "genDoc.md"
-      },
-      {
-        "text": "GT-UI文檔建構2",
-        "file": "genDoc2.md"
-      }
-    ]
-  },
-  {
-    "folder": "Vuejs-library",
-    "notes": [
-      {
-        "text": "Nuxt3 功能",
-        "file": "nuxtFeat.md"
-      },
-      {
-        "text": "Nuxt3 App建置",
-        "file": "nuxtApp.md"
-      },
-      {
-        "text": "Nuxt3 App顏色模式",
-        "file": "colorMode.md"
-      },
-      {
-        "text": "Vue3 & Firebase App",
-        "file": "accountApp.md"
-      },
-      {
-        "text": "Vue3 & Quasar App",
-        "file": "quasarApp.md"
-      },
-      {
-        "text": "ElementPlus樣式複寫",
-        "file": "designRules.md"
       }
     ]
   }
