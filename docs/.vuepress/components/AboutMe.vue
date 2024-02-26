@@ -12,9 +12,10 @@
       1.網站建置與部署<br />
       2.web應用程式架構設計與開發 <br />
       3.第三方API服務串接 (line google..等) <br />
-      4.航空組員系統需求分析 <br />
+      4.設計稿版面實作與UI元件庫開發 <br />
       <br />
-      在學習和工作上，「徹底模仿能幹的人」，是借鏡對方已經成功的方法。更進一步，「站在對方的立場，徹底思考事務」，這會幫助我們做出更好的選擇。
+      「徹底模仿能幹的人」，是借鏡對方已經成功的方法。 <br />
+      「站在對方的立場，徹底思考事務」，這會幫助我們做出更好的選擇。
     </p>
     <img src="../public/images/me2.jpg" alt="" />
   </div>
@@ -38,9 +39,9 @@
 
 .about-me img {
   display: block;
-  width: 280px;
-  height: 280px;
-  border-radius: 10px;
+  width: 220px;
+  height: 220px;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 640px) {
