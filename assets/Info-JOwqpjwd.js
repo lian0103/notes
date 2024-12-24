@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,h as n,i as c,a as r}from"./app-LvsiiWjs.js";const a="/assets/worker-Rz4RX73X.svg",i={},_=["onClick"],l=r("img",{src:a,alt:""},null,-1);function f(s,d){return o(),t("div",{class:"content-info",onClick:c(()=>{},["stop"])},[l,n(s.$slots,"default")],8,_)}const p=e(i,[["render",f],["__file","Info.vue"]]);export{p as default};
