@@ -12,7 +12,7 @@ const mode = process.env.NODE_ENV;
 console.log(mode);
 
 export default defineUserConfig({
-  base: mode === "development" ? "/" : "./",
+  base: mode === "development" ? "/" : "/notes/",
   lang: "zh-tw",
   title: "",
   head: [
