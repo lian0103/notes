@@ -45,7 +45,8 @@ export default defineUserConfig({
   plugins: [
     [
       seoPlugin({
-        hostname: "jason-lian.page",
+        // use GitHub Pages project URL so generated og:url points to the correct site
+        hostname: "https://lian0103.github.io/notes",
         fallBackImage: "https://i.imgur.com/l3dHixD.jpg",
         siteTitle: (_, $site) => $site.title,
         title: ($page) => $page.title,

@@ -2,7 +2,8 @@ const fs = require("fs");
 const xmlbuilder = require("xmlbuilder");
 const path = require("path");
 
-const domain = "https://jason-lian.page";
+// use GitHub Pages project URL for sitemap links
+const domain = "https://lian0103.github.io/notes";
 const jsonfilePath = path.resolve(__dirname, "../docs/.vuepress/sidebar.json");
 const outputPath = path.resolve(
   __dirname,
